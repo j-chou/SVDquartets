@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonButton" id="3">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">188 146 90 20 </string>
+      <string name="bounds">146 188 166 278 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="8">
+      <int name="controlID">10</int>
+      <ostype name="command">HELP</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">368 6 25 25 </string>
+      <string name="bounds">6 368 31 393 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonRadioGroup" id="7">
+      <int name="controlID">8</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>if maximum length is zero</string>
+        </array>
+        <array count="1">
+          <string>if minimum length is zero (Goloboff&apos;s &quot;amb-&quot;)</string>
+        </array>
+        <array count="1">
+          <string>if MPR-sets are identical (Goloboff&apos;s &quot;amb=&quot;)</string>
+        </array>
+      </array>
+      <string name="viewFrame">36 35 320 63 </string>
+      <string name="bounds">35 36 98 356 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="4">
+      <int name="controlID">4</int>
+      <string name="title">Collapse branches…</string>
+      <string name="viewFrame">18 9 157 18 </string>
+      <string name="bounds">9 18 27 175 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 400 186 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonButton" id="9">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">290 146 90 20 </string>
+          <string name="bounds">146 290 166 380 </string>
+        </object>
+        <reference idRef="3"/>
+        <object class="IBCarbonButton" id="6">
+          <int name="controlID">3</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">18 146 90 20 </string>
+          <string name="bounds">146 18 166 108 </string>
+        </object>
+        <reference idRef="4"/>
+        <object class="IBCarbonCheckBox" id="5">
+          <int name="controlID">9</int>
+          <string name="title">Eliminate duplicate trees</string>
+          <string name="viewFrame">20 104 187 18 </string>
+          <string name="bounds">104 20 122 207 </string>
+        </object>
+        <reference idRef="8"/>
+        <reference idRef="7"/>
+      </array>
+      <string name="bounds">0 0 186 400 </string>
+    </object>
+    <object class="IBCarbonWindow" id="10">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Tree Condensing</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">194 100 380 500 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="9"/>
+    <reference idRef="6"/>
+    <reference idRef="5"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="10"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CondenseTrees</string>
+    <reference idRef="10"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">11</unsigned_int>
+</object>

@@ -1,0 +1,177 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="17" name="allObjects">
+    <object class="IBCarbonCheckBox" id="17">
+      <int name="controlID">9</int>
+      <string name="title">Warn before resetting the active datafile</string>
+      <string name="viewFrame">20 100 299 18 </string>
+      <string name="bounds">100 20 118 319 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 493 294 </string>
+      <array count="15" name="subviews">
+        <object class="IBCarbonButton" id="11">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">383 254 90 20 </string>
+          <string name="bounds">254 383 274 473 </string>
+        </object>
+        <object class="IBCarbonButton" id="7">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">281 254 90 20 </string>
+          <string name="bounds">254 281 274 371 </string>
+        </object>
+        <object class="IBCarbonButton" id="5">
+          <int name="controlID">3</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 254 110 20 </string>
+          <string name="bounds">254 20 274 130 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="13">
+          <int name="controlID">4</int>
+          <string name="title">Action when unrecognized commands, OPTIONS command&#13;keywords, or formats are encountered in NEXUS blocks:</string>
+          <string name="viewFrame">21 11 385 33 </string>
+          <string name="bounds">11 21 44 406 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="14">
+          <int name="controlID">8</int>
+          <string name="title">Warn about unrecognized block names</string>
+          <string name="viewFrame">20 81 278 18 </string>
+          <string name="bounds">81 20 99 298 </string>
+        </object>
+        <reference idRef="17"/>
+        <object class="IBCarbonCheckBox" id="15">
+          <int name="controlID">10</int>
+          <string name="title">Warn about treefile operations that could delete unsaved trees</string>
+          <string name="viewFrame">20 119 453 18 </string>
+          <string name="bounds">119 20 137 473 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="10">
+          <int name="controlID">11</int>
+          <string name="title">Warn before quitting with unsaved trees</string>
+          <string name="viewFrame">20 138 299 18 </string>
+          <string name="bounds">138 20 156 319 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="12">
+          <int name="controlID">12</int>
+          <string name="title">Warn about rooting status of user-input trees</string>
+          <string name="viewFrame">20 157 327 18 </string>
+          <string name="bounds">157 20 175 347 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="4">
+          <int name="controlID">13</int>
+          <string name="title">Warn about redefinition of names for sets, constraints, etc.</string>
+          <string name="viewFrame">20 176 416 18 </string>
+          <string name="bounds">176 20 194 436 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="3">
+          <int name="controlID">14</int>
+          <string name="title">Sound:</string>
+          <string name="viewFrame">20 198 47 18 </string>
+          <string name="bounds">198 20 216 67 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="8">
+          <int name="controlID">15</int>
+          <string name="title">Beep on error and warning messages</string>
+          <string name="viewFrame">68 198 269 18 </string>
+          <string name="bounds">198 68 216 337 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="9">
+          <int name="controlID">16</int>
+          <string name="title">Beep on prompts for input from user</string>
+          <string name="viewFrame">68 216 262 18 </string>
+          <string name="bounds">216 68 234 330 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="6">
+          <int name="controlID">17</int>
+          <string name="viewFrame">461 7 25 25 </string>
+          <string name="bounds">7 461 32 486 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonRadioGroup" id="16">
+          <int name="controlID">7</int>
+          <int name="intercellHeight">0</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Issue warning and continue</string>
+            </array>
+            <array count="1">
+              <string>Stop processing and enter editor</string>
+            </array>
+          </array>
+          <string name="viewFrame">74 44 239 37 </string>
+          <string name="bounds">44 74 81 313 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 294 493 </string>
+    </object>
+    <reference idRef="15"/>
+    <reference idRef="8"/>
+    <reference idRef="12"/>
+    <reference idRef="7"/>
+    <reference idRef="11"/>
+    <reference idRef="16"/>
+    <reference idRef="4"/>
+    <reference idRef="10"/>
+    <reference idRef="13"/>
+    <reference idRef="6"/>
+    <object class="IBCarbonWindow" id="18">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Warning and Error Preferences</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">44 17 338 510 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="3"/>
+    <reference idRef="5"/>
+    <reference idRef="14"/>
+    <reference idRef="9"/>
+  </array>
+  <array count="17" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="18"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>WarningErrorPrefs</string>
+    <reference idRef="18"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">19</unsigned_int>
+</object>

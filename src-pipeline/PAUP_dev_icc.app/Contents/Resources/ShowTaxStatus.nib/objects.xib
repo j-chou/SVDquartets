@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 350 222 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonButton" id="6">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">260 184 70 20 </string>
+          <string name="bounds">184 260 204 330 </string>
+        </object>
+        <object class="IBCarbonButton" id="4">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">178 184 70 20 </string>
+          <string name="bounds">184 178 204 248 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="8">
+          <int name="controlID">11</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">321 5 25 25 </string>
+          <string name="bounds">5 321 30 346 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonGroupBox" id="3">
+          <int name="controlID">6</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Show</string>
+          <string name="viewFrame">18 14 266 70 </string>
+          <array count="1" name="subviews">
+            <object class="IBCarbonRadioGroup" id="5">
+              <int name="controlID">5</int>
+              <array count="2" name="radioTitles">
+                <array count="1">
+                  <string>Brief summary</string>
+                </array>
+                <array count="1">
+                  <string>Full details (one line per taxon)</string>
+                </array>
+              </array>
+              <string name="viewFrame">8 24 247 39 </string>
+              <string name="bounds">38 26 77 273 </string>
+            </object>
+          </array>
+          <string name="bounds">14 18 84 284 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="7">
+          <int name="controlID">10</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Deleted taxa</string>
+          <string name="viewFrame">18 94 266 70 </string>
+          <array count="1" name="subviews">
+            <object class="IBCarbonRadioGroup" id="9">
+              <int name="controlID">9</int>
+              <array count="2" name="radioTitles">
+                <array count="1">
+                  <string>Show</string>
+                </array>
+                <array count="1">
+                  <string>Hide</string>
+                </array>
+              </array>
+              <string name="viewFrame">16 24 65 42 </string>
+              <string name="bounds">118 34 160 99 </string>
+            </object>
+          </array>
+          <string name="bounds">94 18 164 284 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 222 350 </string>
+    </object>
+    <reference idRef="6"/>
+    <reference idRef="8"/>
+    <reference idRef="5"/>
+    <reference idRef="7"/>
+    <reference idRef="3"/>
+    <reference idRef="9"/>
+    <reference idRef="4"/>
+    <object class="IBCarbonWindow" id="10">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Show Taxon Status</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">448 65 670 415 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="3"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="7"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ShowTaxStatus</string>
+    <reference idRef="10"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">11</unsigned_int>
+</object>

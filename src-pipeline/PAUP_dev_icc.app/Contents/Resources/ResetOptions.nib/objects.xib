@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonRoundButton" id="5">
+      <int name="controlID">7</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">276 4 25 25 </string>
+      <string name="bounds">4 276 29 301 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 304 143 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonButton" id="4">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">194 103 90 20 </string>
+          <string name="bounds">103 194 123 284 </string>
+        </object>
+        <object class="IBCarbonButton" id="3">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">92 103 90 20 </string>
+          <string name="bounds">103 92 123 182 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="6">
+          <int name="controlID">3</int>
+          <string name="title">Reset all options to:</string>
+          <string name="viewFrame">20 19 138 16 </string>
+          <string name="bounds">19 20 35 158 </string>
+        </object>
+        <reference idRef="5"/>
+        <object class="IBCarbonRadioGroup" id="7">
+          <int name="controlID">6</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Current startup defaults</string>
+            </array>
+            <array count="1">
+              <string>&quot;Factory settings&quot;</string>
+            </array>
+          </array>
+          <string name="viewFrame">29 43 199 37 </string>
+          <string name="bounds">43 29 80 228 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 143 304 </string>
+    </object>
+    <reference idRef="7"/>
+    <reference idRef="4"/>
+    <object class="IBCarbonWindow" id="8">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Reset Options</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">194 100 337 404 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="3"/>
+    <reference idRef="6"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="8"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ResetOptions</string>
+    <reference idRef="8"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">9</unsigned_int>
+</object>

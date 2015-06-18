@@ -1,0 +1,13 @@
+#!/bin/bash                                                                                                 
+#                                                                                                           
+#PBS -l walltime=04:00:00,nodes=1:ppn=12
+#PBS -N convert_fasta_to_phylip_6-10
+#PBS -m be                                                                                                  
+#PBS -M jedchou1@illinois.edu                                                                               
+#
+
+for i in {6..10}; do
+    for j in {1..1000}; do
+    	~/AGBsvdquartets/src-pipeline/convert_fasta_to_phylip.sh $i $j
+    done
+done

@@ -1,0 +1,36 @@
+#!/bin/bash
+#
+#PBS -N 11-taxon_M3_ILS_level
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=4:00:00
+#PBS -l walltime=4:00:00
+#
+MODEL=model.10.600000.0.000000333
+MODELPATH=~/AGBsvdquartets/11-taxon_redo/${MODEL}
+cd ${MODELPATH}
+
+rm -f ${MODEL}_ILS_R_format.txt
+touch ${MODEL}_ILS_R_format.txt
+echo "model,species tree number,gene tree number,FN rate" >> ${MODEL}_ILS_R_format.txt
+
+for SPECIESNUMBER in {1..50}; do
+    cd ~/scratch/11-taxon_redo/${MODEL}/${SPECIESNUMBER}
+    touch temp_${MODEL}_ILS
+    COUNT=1
+    while read p; do
+	echo $COUNT
+	echo $p > TEMP
+        ~/phylogenetic_tools/tree_comp/compareTrees.missingBranch s_tree.trees TEMP >> temp_${MODEL}_ILS
+	rm -f ${MODEL}_ILS
+	touch ${MODEL}_ILS
+	awk -vORS=, '{ print $3 }' temp_${MODEL}_ILS | sed 's/,$/\n/' >> ${MODEL}_ILS
+	rm temp_${MODEL}_ILS
+
+	TEMP=$(cat ${MODEL}_ILS)
+	echo ${MODEL}","${SPECIESNUMBER}","${COUNT}","${TEMP} >> ${MODELPATH}/${MODEL}_ILS_R_format.txt
+	rm ${MODEL}_ILS
+	rm TEMP
+	COUNT="$(($COUNT + 1))"
+    done < ~/scratch/11-taxon_redo/${MODEL}/${SPECIESNUMBER}/truegenetrees
+done
+

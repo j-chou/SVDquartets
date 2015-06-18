@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="15" name="allObjects">
+    <object class="IBCarbonIcon" id="4">
+      <int name="controlID">4</int>
+      <int name="contentType">4</int>
+      <int name="contentResID">256</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">40 31 32 32 </string>
+      <string name="bounds">31 40 63 72 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="3">
+      <int name="controlID">17</int>
+      <ostype name="command">HELP</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">311 5 25 25 </string>
+      <string name="bounds">5 311 30 336 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonCheckBox" id="10">
+      <int name="controlID">16</int>
+      <string name="title">Never truncate taxon names</string>
+      <string name="viewFrame">15 238 223 18 </string>
+      <string name="bounds">238 15 256 238 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="15">
+      <int name="controlID">14</int>
+      <string name="title">&quot;Compressed&quot; drawing in display window</string>
+      <string name="viewFrame">15 196 295 18 </string>
+      <string name="bounds">196 15 214 310 </string>
+    </object>
+    <object class="IBCarbonButton" id="12">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">170 273 70 20 </string>
+      <string name="bounds">273 170 293 240 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 342 313 </string>
+      <array count="13" name="subviews">
+        <object class="IBCarbonGroupBox" id="13">
+          <int name="controlID">13</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Tree Order</string>
+          <string name="viewFrame">18 10 250 170 </string>
+          <string name="bounds">10 18 180 268 </string>
+        </object>
+        <object class="IBCarbonButton" id="7">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">252 273 70 20 </string>
+          <string name="bounds">273 252 293 322 </string>
+        </object>
+        <reference idRef="12"/>
+        <object class="IBCarbonButton" id="5">
+          <int name="controlID">3</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">15 273 90 20 </string>
+          <string name="bounds">273 15 293 105 </string>
+        </object>
+        <reference idRef="4"/>
+        <object class="IBCarbonIcon" id="6">
+          <int name="controlID">5</int>
+          <int name="contentType">4</int>
+          <int name="contentResID">257</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">40 67 32 32 </string>
+          <string name="bounds">67 40 99 72 </string>
+        </object>
+        <object class="IBCarbonIcon" id="11">
+          <int name="controlID">6</int>
+          <int name="contentType">4</int>
+          <int name="contentResID">258</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">40 103 32 32 </string>
+          <string name="bounds">103 40 135 72 </string>
+        </object>
+        <object class="IBCarbonIcon" id="9">
+          <int name="controlID">7</int>
+          <int name="contentType">4</int>
+          <int name="contentResID">259</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">40 139 32 32 </string>
+          <string name="bounds">139 40 171 72 </string>
+        </object>
+        <reference idRef="15"/>
+        <object class="IBCarbonCheckBox" id="14">
+          <int name="controlID">15</int>
+          <string name="title">Always show taxon numbers</string>
+          <string name="viewFrame">15 217 212 18 </string>
+          <string name="bounds">217 15 235 227 </string>
+        </object>
+        <reference idRef="10"/>
+        <reference idRef="3"/>
+        <object class="IBCarbonRadioGroup" id="8">
+          <int name="controlID">12</int>
+          <int name="numRows">4</int>
+          <int name="intercellHeight">18</int>
+          <array count="4" name="radioTitles">
+            <array count="1">
+              <string>Standard</string>
+            </array>
+            <array count="1">
+              <string>&quot;Ladderize right&quot;</string>
+            </array>
+            <array count="1">
+              <string>&quot;Ladderize left&quot;</string>
+            </array>
+            <array count="1">
+              <string>&quot;Alphabetical&quot;</string>
+            </array>
+          </array>
+          <string name="viewFrame">89 39 142 138 </string>
+          <string name="bounds">39 89 177 231 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 313 342 </string>
+    </object>
+    <reference idRef="11"/>
+    <reference idRef="5"/>
+    <object class="IBCarbonWindow" id="16">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Tree Drawing Options</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">852 72 1165 414 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="6"/>
+    <reference idRef="8"/>
+    <reference idRef="9"/>
+    <reference idRef="14"/>
+    <reference idRef="13"/>
+    <reference idRef="7"/>
+  </array>
+  <array count="15" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="16"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TreeDrawing</string>
+    <reference idRef="16"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">18</unsigned_int>
+</object>

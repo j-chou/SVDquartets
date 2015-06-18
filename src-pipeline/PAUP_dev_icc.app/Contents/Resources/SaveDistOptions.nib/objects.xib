@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="15" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="12">
+      <int name="controlID">9</int>
+      <int name="intercellHeight">0</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Twice maximum defined distance</string>
+        </array>
+        <array count="1">
+          <string>An asterisk</string>
+        </array>
+      </array>
+      <string name="viewFrame">41 54 245 40 </string>
+      <string name="bounds">54 41 94 286 </string>
+    </object>
+    <object class="IBCarbonButton" id="4">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">201 281 80 20 </string>
+      <string name="bounds">281 201 301 281 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="6">
+      <int name="controlID">4</int>
+      <string name="title">Maximum number of decimal places:</string>
+      <string name="viewFrame">20 12 238 16 </string>
+      <string name="bounds">12 20 28 258 </string>
+    </object>
+    <object class="IBCarbonButton" id="8">
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">293 281 80 20 </string>
+      <string name="bounds">281 293 301 373 </string>
+    </object>
+    <object class="IBCarbonGroupBox" id="15">
+      <int name="controlID">11</int>
+      <int name="fontStyle">5</int>
+      <string name="title">Output matrix as</string>
+      <boolean name="primary">FALSE</boolean>
+      <string name="viewFrame">41 117 190 82 </string>
+      <string name="bounds">117 41 199 231 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="3">
+      <int name="controlID">15</int>
+      <int name="numRows">3</int>
+      <int name="intercellHeight">0</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Lower triangle</string>
+        </array>
+        <array count="1">
+          <string>Upper triangle</string>
+        </array>
+        <array count="1">
+          <string>Full matrix</string>
+        </array>
+      </array>
+      <string name="viewFrame">60 138 132 55 </string>
+      <string name="bounds">138 60 193 192 </string>
+    </object>
+    <object class="IBCarbonButton" id="11">
+      <int name="controlID">3</int>
+      <string name="title">Defaults…</string>
+      <string name="viewFrame">20 281 100 20 </string>
+      <string name="bounds">281 20 301 120 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="7">
+      <int name="controlID">18</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">363 6 25 25 </string>
+      <string name="bounds">6 363 31 388 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonCheckBox" id="10">
+      <int name="controlID">16</int>
+      <string name="title">Include diagonals</string>
+      <string name="viewFrame">39 202 142 18 </string>
+      <string name="bounds">202 39 220 181 </string>
+    </object>
+    <object class="IBCarbonWindow" id="16">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Options for Saving Distances</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 393 315 </string>
+        <array count="13" name="subviews">
+          <object class="IBCarbonGroupBox" id="14">
+            <int name="controlID">10</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Options for formats other than &quot;one-column&quot;</string>
+            <string name="viewFrame">20 97 353 132 </string>
+            <string name="bounds">97 20 229 373 </string>
+          </object>
+          <reference idRef="15"/>
+          <reference idRef="8"/>
+          <reference idRef="4"/>
+          <reference idRef="11"/>
+          <reference idRef="6"/>
+          <object class="IBCarbonEditText" id="5">
+            <int name="controlID">5</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">264 12 34 16 </string>
+            <string name="bounds">12 264 28 298 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="13">
+            <int name="controlID">6</int>
+            <string name="title">Output undefined distances as</string>
+            <string name="viewFrame">20 36 216 16 </string>
+            <string name="bounds">36 20 52 236 </string>
+          </object>
+          <reference idRef="10"/>
+          <object class="IBCarbonButton" id="9">
+            <int name="controlID">17</int>
+            <string name="title">Distance Options…</string>
+            <string name="viewFrame">120 241 152 20 </string>
+            <string name="bounds">241 120 261 272 </string>
+          </object>
+          <reference idRef="7"/>
+          <reference idRef="12"/>
+          <reference idRef="3"/>
+        </array>
+        <string name="bounds">0 0 315 393 </string>
+      </object>
+      <string name="windowRect">393 89 708 482 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="5"/>
+    <reference idRef="14"/>
+    <reference idRef="13"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+  </array>
+  <array count="15" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="16"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SaveDistOptions</string>
+    <reference idRef="16"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">18</unsigned_int>
+</object>

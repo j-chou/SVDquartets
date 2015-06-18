@@ -1,0 +1,146 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="10">
+      <int name="controlID">11</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Mean</string>
+        </array>
+        <array count="1">
+          <string>Median</string>
+        </array>
+      </array>
+      <string name="viewFrame">40 101 67 43 </string>
+      <string name="bounds">101 40 144 107 </string>
+    </object>
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">286 204 70 20 </string>
+      <string name="bounds">204 286 224 356 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="12">
+      <int name="controlID">8</int>
+      <string name="title">Represent category rates by:</string>
+      <string name="viewFrame">20 83 194 16 </string>
+      <string name="bounds">83 20 99 214 </string>
+    </object>
+    <object class="IBCarbonEditText" id="11">
+      <int name="controlID">4</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">142 15 66 16 </string>
+      <string name="bounds">15 142 31 208 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="6">
+      <int name="controlID">13</int>
+      <string name="viewFrame">341 4 25 25 </string>
+      <string name="bounds">4 341 29 366 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonButton" id="7">
+      <int name="controlID">5</int>
+      <int name="controlSize">1</int>
+      <string name="title">Previous</string>
+      <string name="viewFrame">224 14 70 20 </string>
+      <string name="bounds">14 224 34 294 </string>
+    </object>
+    <object class="IBCarbonWindow" id="14">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Gamma Distribution Plot</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 376 244 </string>
+        <array count="11" name="subviews">
+          <reference idRef="5"/>
+          <object class="IBCarbonButton" id="9">
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">204 204 70 20 </string>
+            <string name="bounds">204 204 224 274 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="3">
+            <int name="controlID">3</int>
+            <string name="title">Shape parameter:</string>
+            <string name="viewFrame">20 15 114 16 </string>
+            <string name="bounds">15 20 31 134 </string>
+          </object>
+          <reference idRef="11"/>
+          <reference idRef="7"/>
+          <object class="IBCarbonStaticText" id="13">
+            <int name="controlID">6</int>
+            <string name="title">Number of rate categories:</string>
+            <string name="viewFrame">20 49 170 16 </string>
+            <string name="bounds">49 20 65 190 </string>
+          </object>
+          <object class="IBCarbonEditText" id="8">
+            <int name="controlID">7</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="title">4</string>
+            <string name="viewFrame">199 50 34 16 </string>
+            <string name="bounds">50 199 66 233 </string>
+          </object>
+          <reference idRef="12"/>
+          <reference idRef="10"/>
+          <reference idRef="6"/>
+          <object class="IBCarbonCheckBox" id="4">
+            <int name="controlID">12</int>
+            <string name="title">Apply any changes in settings to current model</string>
+            <string name="viewFrame">20 156 327 18 </string>
+            <string name="bounds">156 20 174 347 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 244 376 </string>
+      </object>
+      <string name="windowRect">897 176 1141 552 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="2"/>
+    <reference idRef="13"/>
+    <reference idRef="3"/>
+    <reference idRef="4"/>
+    <reference idRef="8"/>
+    <reference idRef="9"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="14"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>GammaPlot</string>
+    <reference idRef="14"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">15</unsigned_int>
+</object>

@@ -1,0 +1,193 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="22" name="allObjects">
+    <object class="IBCarbonRoundButton" id="10">
+      <int name="controlID">10</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="bounds">29 545 54 570 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonPopupButton" id="8">
+      <int name="controlID">4</int>
+      <int name="fontStyle">-2</int>
+      <object name="menu" class="IBCarbonMenu" id="15">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="16">
+            <string name="title">Item 1</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="17">
+            <string name="title">Item 2</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="18">
+            <string name="title">Item 3</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">Line breaks: </string>
+      <int name="titleJustification">-2</int>
+      <string name="bounds">32 7 52 193 </string>
+    </object>
+    <object class="IBCarbonButton" id="26">
+      <int name="controlID">9</int>
+      <int name="controlSize">1</int>
+      <int name="iconPosition">0</int>
+      <string name="title">Defaults...</string>
+      <string name="bounds">32 421 52 515 </string>
+    </object>
+    <object class="IBCarbonWindow" id="23">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">13</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <array count="1" name="subviews">
+          <object class="IBCarbonUserPane" id="3">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">11</int>
+            <int name="featureBits">2</int>
+            <array count="7" name="subviews">
+              <object class="IBCarbonCheckBox" id="4">
+                <int name="controlID">5</int>
+                <int name="fontStyle">-2</int>
+                <boolean name="autoToggle">FALSE</boolean>
+                <string name="title">Interleave</string>
+                <string name="bounds">7 292 25 373 </string>
+              </object>
+              <object class="IBCarbonPopupButton" id="6">
+                <int name="controlID">2</int>
+                <int name="fontStyle">1</int>
+                <object name="menu" class="IBCarbonMenu" id="19">
+                  <string name="title">Popup</string>
+                  <array count="3" name="items">
+                    <object class="IBCarbonMenuItem" id="22">
+                      <string name="title">Item 1</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                    <object class="IBCarbonMenuItem" id="21">
+                      <string name="title">Item 2</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                    <object class="IBCarbonMenuItem" id="20">
+                      <string name="title">Item 3</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <string name="title">File format: </string>
+                <int name="titleJustification">-2</int>
+                <string name="bounds">7 7 27 281 </string>
+              </object>
+              <reference idRef="8"/>
+              <reference idRef="10"/>
+              <object class="IBCarbonPopupButton" id="9">
+                <int name="controlID">8</int>
+                <int name="fontStyle">-2</int>
+                <object name="menu" class="IBCarbonMenu" id="11">
+                  <string name="title">Popup</string>
+                  <array count="3" name="items">
+                    <object class="IBCarbonMenuItem" id="12">
+                      <string name="title">unlimited</string>
+                      <boolean name="checked">TRUE</boolean>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                    <object class="IBCarbonMenuItem" id="14">
+                      <string name="title">Item 2</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                    <object class="IBCarbonMenuItem" id="13">
+                      <string name="title">Item 3</string>
+                      <boolean name="updateSingleItem">TRUE</boolean>
+                    </object>
+                  </array>
+                </object>
+                <string name="title">Characters/line:</string>
+                <int name="titleJustification">-2</int>
+                <string name="bounds">31 208 51 384 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="7">
+                <int name="controlID">6</int>
+                <int name="fontStyle">-2</int>
+                <boolean name="autoToggle">FALSE</boolean>
+                <string name="title">Use TAXA &amp; CHARACTERS blocks</string>
+                <string name="bounds">7 372 25 575 </string>
+              </object>
+              <reference idRef="26"/>
+            </array>
+            <string name="bounds">0 0 60 598 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 58 598 </string>
+      </object>
+      <string name="windowRect">-92 85 -34 683 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="15"/>
+    <reference idRef="17"/>
+    <reference idRef="12"/>
+    <reference idRef="9"/>
+    <reference idRef="6"/>
+    <reference idRef="3"/>
+    <reference idRef="2"/>
+    <reference idRef="22"/>
+    <reference idRef="13"/>
+    <reference idRef="7"/>
+    <reference idRef="11"/>
+    <reference idRef="16"/>
+    <reference idRef="21"/>
+    <reference idRef="20"/>
+    <reference idRef="4"/>
+    <reference idRef="14"/>
+    <reference idRef="19"/>
+    <reference idRef="18"/>
+  </array>
+  <array count="22" name="allParents">
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="1"/>
+    <reference idRef="8"/>
+    <reference idRef="15"/>
+    <reference idRef="11"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="2"/>
+    <reference idRef="23"/>
+    <reference idRef="19"/>
+    <reference idRef="11"/>
+    <reference idRef="3"/>
+    <reference idRef="9"/>
+    <reference idRef="15"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="3"/>
+    <reference idRef="11"/>
+    <reference idRef="6"/>
+    <reference idRef="15"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>Export</string>
+    <reference idRef="23"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">27</unsigned_int>
+</object>

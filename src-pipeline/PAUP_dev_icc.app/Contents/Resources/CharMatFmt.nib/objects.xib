@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="6">
+      <int name="controlID">6</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Always use numeric labels</string>
+        </array>
+        <array count="1">
+          <string>Use alphanumeric labels if available</string>
+        </array>
+      </array>
+      <string name="viewFrame">39 40 281 42 </string>
+      <string name="bounds">40 39 82 320 </string>
+    </object>
+    <object class="IBCarbonEditText" id="12">
+      <int name="controlID">12</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">127 199 20 16 </string>
+      <string name="bounds">199 127 215 147 </string>
+    </object>
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">271 242 90 20 </string>
+      <string name="bounds">242 271 262 361 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="11">
+      <int name="controlID">13</int>
+      <string name="viewFrame">351 5 25 25 </string>
+      <string name="bounds">5 351 30 376 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonStaticText" id="7">
+      <int name="controlID">11</int>
+      <string name="title">Column width:</string>
+      <string name="viewFrame">23 199 96 16 </string>
+      <string name="bounds">199 23 215 119 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 381 282 </string>
+      <array count="11" name="subviews">
+        <reference idRef="5"/>
+        <object class="IBCarbonButton" id="4">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">169 242 90 20 </string>
+          <string name="bounds">242 169 262 259 </string>
+        </object>
+        <object class="IBCarbonButton" id="13">
+          <int name="controlID">3</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 242 90 20 </string>
+          <string name="bounds">242 20 262 110 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="9">
+          <int name="controlID">8</int>
+          <string name="title">Use &quot;equate symbols&quot; (ambiguity codes)&#13;for multiple states where possible</string>
+          <string name="viewFrame">23 102 314 32 </string>
+          <string name="bounds">102 23 134 337 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="3">
+          <int name="controlID">9</int>
+          <string name="title">Show excluded characters</string>
+          <string name="viewFrame">23 138 197 18 </string>
+          <string name="bounds">138 23 156 220 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="8">
+          <int name="controlID">10</int>
+          <string name="title">Include status information</string>
+          <string name="viewFrame">23 165 201 18 </string>
+          <string name="bounds">165 23 183 224 </string>
+        </object>
+        <reference idRef="7"/>
+        <reference idRef="12"/>
+        <object class="IBCarbonGroupBox" id="10">
+          <int name="controlID">7</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Character labels vs. numbers</string>
+          <string name="viewFrame">23 18 323 68 </string>
+          <string name="bounds">18 23 86 346 </string>
+        </object>
+        <reference idRef="6"/>
+        <reference idRef="11"/>
+      </array>
+      <string name="bounds">0 0 282 381 </string>
+    </object>
+    <reference idRef="8"/>
+    <reference idRef="4"/>
+    <reference idRef="13"/>
+    <reference idRef="3"/>
+    <object class="IBCarbonWindow" id="14">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Character-Matrix Formatting Options</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">194 62 476 443 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="9"/>
+    <reference idRef="10"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="14"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CharMatFmt</string>
+    <reference idRef="14"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">15</unsigned_int>
+</object>

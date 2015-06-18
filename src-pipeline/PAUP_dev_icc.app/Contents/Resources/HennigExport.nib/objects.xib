@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 458 283 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonButton" id="10">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">348 248 90 20 </string>
+          <string name="bounds">248 348 268 438 </string>
+        </object>
+        <object class="IBCarbonButton" id="8">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">246 248 90 20 </string>
+          <string name="bounds">248 246 268 336 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4">
+          <int name="controlID">4</int>
+          <string name="title">Hennig86 cannot handle multistate taxa.</string>
+          <string name="viewFrame">20 8 277 16 </string>
+          <string name="bounds">8 20 24 297 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="9">
+          <int name="controlID">5</int>
+          <string name="title">Multistate taxa for ORDERED (including Dollo and irreversible) characters can be emulated using additive binary coding under the interpretation of uncertainty (see Multistate Taxa…).</string>
+          <string name="viewFrame">42 35 380 65 </string>
+          <string name="bounds">35 42 100 422 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="3">
+          <int name="controlID">9</int>
+          <string name="title">Multistate taxa for UNORDERED (including stepmatrix) characters cannot be emulated in Hennig86 and will be assigned the &apos;?&apos; state.</string>
+          <string name="viewFrame">44 165 384 52 </string>
+          <string name="bounds">165 44 217 428 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="5">
+          <int name="controlID">10</int>
+          <string name="viewFrame">428 5 25 25 </string>
+          <string name="bounds">5 428 30 453 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonButton" id="7">
+          <int name="controlID">3</int>
+          <ostype name="command">not!</ostype>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 248 94 20 </string>
+          <string name="bounds">248 20 268 114 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="6">
+          <int name="controlID">8</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Do this (characters will be recoded into additive binary)</string>
+            </array>
+            <array count="1">
+              <string>Assign the &apos;?&apos; state to multistate taxa</string>
+            </array>
+          </array>
+          <string name="viewFrame">57 108 401 43 </string>
+          <string name="bounds">108 57 151 458 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 283 458 </string>
+    </object>
+    <reference idRef="9"/>
+    <reference idRef="10"/>
+    <reference idRef="5"/>
+    <reference idRef="3"/>
+    <reference idRef="4"/>
+    <reference idRef="7"/>
+    <object class="IBCarbonWindow" id="11">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Hennig86 Export</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">244 772 527 1230 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="6"/>
+    <reference idRef="8"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="11"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HennigExport</string>
+    <reference idRef="11"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">12</unsigned_int>
+</object>

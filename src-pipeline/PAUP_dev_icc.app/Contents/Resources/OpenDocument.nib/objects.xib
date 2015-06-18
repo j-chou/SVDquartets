@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonRadioButton" id="172">
+      <int name="controlID">2</int>
+      <string name="title">Execute</string>
+      <string name="bounds">10 113 29 183 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="169">
+      <array count="1" name="subviews">
+        <object class="IBCarbonUserPane" id="170">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">5</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="featureBits">2</int>
+          <array count="4" name="subviews">
+            <object class="IBCarbonStaticText" id="174">
+              <int name="controlID">1</int>
+              <string name="title">Initial mode: </string>
+              <string name="bounds">11 20 27 101 </string>
+            </object>
+            <object class="IBCarbonRoundButton" id="171">
+              <int name="controlID">4</int>
+              <string name="bounds">7 416 32 441 </string>
+              <int name="contentType">132</int>
+              <int name="iconCreator">1835098995</int>
+              <int name="iconType">1751477360</int>
+            </object>
+            <reference idRef="172"/>
+            <object class="IBCarbonRadioButton" id="173">
+              <int name="controlID">3</int>
+              <string name="title">Edit</string>
+              <string name="bounds">10 191 29 247 </string>
+            </object>
+          </array>
+          <string name="bounds">0 0 42 459 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 42 459 </string>
+    </object>
+    <reference idRef="170"/>
+    <reference idRef="171"/>
+    <reference idRef="174"/>
+    <reference idRef="173"/>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">13</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">662 76 704 535 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="170"/>
+    <reference idRef="168"/>
+    <reference idRef="169"/>
+    <reference idRef="170"/>
+    <reference idRef="170"/>
+    <reference idRef="170"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>OpenDocument</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">175</unsigned_int>
+</object>

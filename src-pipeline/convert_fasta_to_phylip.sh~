@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {1..1}; do
+    for j in {1..1}; do
+	~/AGBsvdquartets/src-pipeline/Fasta2Phylip.pl ~/scratch/AGBsvdquartets/data/sim${i}/${j}.fasta  ~/scratch/AGBsvdquartets/data/sim${i}/${j}.phy
+    done
+done

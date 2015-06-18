@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonStaticText" id="35">
+      <int name="controlID">134</int>
+      <int name="fontStyle">1</int>
+      <string name="title">Copyright notice</string>
+      <string name="foreColor">65535 65535 65535 </string>
+      <int name="justification">1</int>
+      <string name="viewFrame">69 286 384 19 </string>
+      <string name="bounds">286 69 305 453 </string>
+    </object>
+    <object class="IBCarbonImageView" id="19">
+      <int name="controlID">3</int>
+      <float name="alpha">100.000000</float>
+      <boolean name="opaque">FALSE</boolean>
+      <boolean name="scaleToFit">TRUE</boolean>
+      <string name="viewFrame">176 10 306 194 </string>
+      <string name="bounds">10 176 204 482 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 623 382 </string>
+      <array count="8" name="subviews">
+        <object class="IBCarbonButton" id="5">
+          <int name="controlID">2</int>
+          <ostype name="command">ok  </ostype>
+          <string name="title">Info and Credits...</string>
+          <string name="viewFrame">445 307 158 20 </string>
+          <string name="bounds">307 445 327 603 </string>
+        </object>
+        <object class="IBCarbonButton" id="28">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Back to Program</string>
+          <string name="viewFrame">445 342 158 20 </string>
+          <string name="bounds">342 445 362 603 </string>
+        </object>
+        <reference idRef="19"/>
+        <object class="IBCarbonImageView" id="26">
+          <int name="controlID">8</int>
+          <boolean name="opaque">FALSE</boolean>
+          <boolean name="scaleToFit">TRUE</boolean>
+          <string name="viewFrame">20 327 259 48 </string>
+          <string name="bounds">327 20 375 279 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="20">
+          <int name="controlID">4</int>
+          <string name="title">User name</string>
+          <string name="foreColor">65535 65535 0 </string>
+          <int name="justification">1</int>
+          <string name="viewFrame">75 219 472 16 </string>
+          <string name="bounds">219 75 235 547 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="24">
+          <int name="controlID">5</int>
+          <string name="title">Institution/company</string>
+          <string name="foreColor">65535 65535 65535 </string>
+          <int name="justification">1</int>
+          <string name="viewFrame">75 238 472 16 </string>
+          <string name="bounds">238 75 254 547 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="22">
+          <int name="controlID">6</int>
+          <int name="fontStyle">2</int>
+          <string name="title">Version 4...</string>
+          <string name="foreColor">65535 65535 65535 </string>
+          <string name="viewFrame">20 281 278 19 </string>
+          <string name="bounds">281 20 300 298 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="25">
+          <int name="controlID">7</int>
+          <int name="fontStyle">1</int>
+          <string name="title">Copyright notice</string>
+          <string name="foreColor">65535 65535 65535 </string>
+          <string name="viewFrame">20 300 384 19 </string>
+          <string name="bounds">300 20 319 404 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 382 623 </string>
+    </object>
+    <object class="IBCarbonWindow" id="30">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">1</int>
+      <int name="windowPosition">1</int>
+      <string name="title">SplashWindow</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="31">
+        <string name="viewFrame">0 0 523 373 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonImageView" id="34">
+            <int name="controlID">128</int>
+            <float name="alpha">100.000000</float>
+            <boolean name="opaque">FALSE</boolean>
+            <boolean name="scaleToFit">TRUE</boolean>
+            <string name="viewFrame">108 10 306 194 </string>
+            <string name="bounds">10 108 204 414 </string>
+          </object>
+          <object class="IBCarbonImageView" id="33">
+            <int name="controlID">129</int>
+            <boolean name="opaque">FALSE</boolean>
+            <boolean name="scaleToFit">TRUE</boolean>
+            <string name="viewFrame">16 315 259 48 </string>
+            <string name="bounds">315 16 363 275 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="38">
+            <int name="controlID">130</int>
+            <string name="title">User name</string>
+            <string name="foreColor">65535 65535 0 </string>
+            <int name="justification">1</int>
+            <string name="viewFrame">25 210 472 16 </string>
+            <string name="bounds">210 25 226 497 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="32">
+            <int name="controlID">131</int>
+            <string name="title">Institution/company</string>
+            <string name="foreColor">65535 65535 65535 </string>
+            <int name="justification">1</int>
+            <string name="viewFrame">25 227 472 16 </string>
+            <string name="bounds">227 25 243 497 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="40">
+            <int name="controlID">132</int>
+            <string name="title">Serial #</string>
+            <string name="foreColor">65535 65535 65535 </string>
+            <int name="justification">1</int>
+            <string name="viewFrame">25 244 472 16 </string>
+            <string name="bounds">244 25 260 497 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="39">
+            <int name="controlID">133</int>
+            <int name="fontStyle">2</int>
+            <string name="title">Version 4...</string>
+            <string name="foreColor">65535 65535 65535 </string>
+            <int name="justification">1</int>
+            <string name="viewFrame">122 270 278 19 </string>
+            <string name="bounds">270 122 289 400 </string>
+          </object>
+          <reference idRef="35"/>
+        </array>
+        <string name="bounds">0 0 373 523 </string>
+      </object>
+      <string name="windowRect">205 53 578 576 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="24"/>
+    <reference idRef="20"/>
+    <reference idRef="32"/>
+    <reference idRef="22"/>
+    <reference idRef="38"/>
+    <reference idRef="31"/>
+    <reference idRef="39"/>
+    <reference idRef="26"/>
+    <reference idRef="33"/>
+    <object class="IBCarbonWindow" id="9">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">1</int>
+      <int name="windowPosition">1</int>
+      <string name="title">AboutPaup</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">205 53 587 676 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="28"/>
+    <reference idRef="25"/>
+    <reference idRef="40"/>
+    <reference idRef="34"/>
+    <reference idRef="5"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="31"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="31"/>
+    <reference idRef="2"/>
+    <reference idRef="31"/>
+    <reference idRef="30"/>
+    <reference idRef="31"/>
+    <reference idRef="2"/>
+    <reference idRef="31"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="31"/>
+    <reference idRef="31"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>AboutPaup</string>
+    <reference idRef="9"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SplashWindow</string>
+    <reference idRef="30"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">41</unsigned_int>
+</object>

@@ -1,0 +1,139 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="12" name="allObjects">
+    <object class="IBCarbonStaticText" id="12">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">7</int>
+      <string name="title">= Missing data</string>
+      <string name="viewFrame">71 70 106 16 </string>
+      <string name="bounds">70 71 86 177 </string>
+    </object>
+    <object class="IBCarbonButton" id="9">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">139 146 70 20 </string>
+      <string name="bounds">146 139 166 209 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="10">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">3</int>
+      <string name="title">Special symbols:</string>
+      <string name="viewFrame">20 9 114 16 </string>
+      <string name="bounds">9 20 25 134 </string>
+    </object>
+    <object class="IBCarbonEditText" id="3">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">8</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">48 101 17 16 </string>
+      <string name="bounds">101 48 117 65 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="5">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">9</int>
+      <string name="title">= Identical-site</string>
+      <string name="viewFrame">71 100 110 16 </string>
+      <string name="bounds">100 71 116 181 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="8">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">10</int>
+      <string name="viewFrame">283 4 25 25 </string>
+      <string name="bounds">4 283 29 308 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonEditText" id="11">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">6</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">48 71 17 16 </string>
+      <string name="bounds">71 48 87 65 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="6">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">5</int>
+      <string name="title">= Gap</string>
+      <string name="viewFrame">71 40 51 16 </string>
+      <string name="bounds">40 71 56 122 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 311 186 </string>
+      <array count="10" name="subviews">
+        <reference idRef="10"/>
+        <object class="IBCarbonEditText" id="7">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">4</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">48 39 17 16 </string>
+          <string name="bounds">39 48 55 65 </string>
+        </object>
+        <reference idRef="6"/>
+        <reference idRef="11"/>
+        <reference idRef="12"/>
+        <reference idRef="3"/>
+        <reference idRef="5"/>
+        <object class="IBCarbonButton" id="4">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">221 146 70 20 </string>
+          <string name="bounds">146 221 166 291 </string>
+        </object>
+        <reference idRef="9"/>
+        <reference idRef="8"/>
+      </array>
+      <string name="bounds">0 0 186 311 </string>
+    </object>
+    <object class="IBCarbonWindow" id="13">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <string name="title">Additional Import Options</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">828 868 1014 1179 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="7"/>
+    <reference idRef="4"/>
+  </array>
+  <array count="12" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="13"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ImportSymbols</string>
+    <reference idRef="13"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">14</unsigned_int>
+</object>

@@ -1,0 +1,302 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="24" name="allObjects">
+    <object class="IBCarbonStaticText" id="23">
+      <int name="controlID">7</int>
+      <string name="title">C &lt;--&gt; G</string>
+      <string name="viewFrame">64 176 66 18 </string>
+      <string name="bounds">176 64 194 130 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="14">
+      <int name="controlID">50</int>
+      <int name="numRows">1</int>
+      <int name="numCols">6</int>
+      <int name="intercellHeight">0</int>
+      <array count="1" name="radioTitles">
+        <array count="6">
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+        </array>
+      </array>
+      <string name="viewFrame">149 197 176 18 </string>
+      <string name="bounds">197 149 215 325 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="16">
+      <int name="controlID">43</int>
+      <int name="numRows">1</int>
+      <int name="numCols">6</int>
+      <int name="intercellHeight">0</int>
+      <array count="1" name="radioTitles">
+        <array count="6">
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+        </array>
+      </array>
+      <string name="viewFrame">149 175 176 18 </string>
+      <string name="bounds">175 149 193 325 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="15">
+      <int name="controlID">22</int>
+      <int name="numRows">1</int>
+      <int name="numCols">6</int>
+      <int name="intercellHeight">0</int>
+      <array count="1" name="radioTitles">
+        <array count="6">
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+        </array>
+      </array>
+      <string name="viewFrame">149 109 176 18 </string>
+      <string name="bounds">109 149 127 325 </string>
+    </object>
+    <object class="IBCarbonButton" id="9">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">206 265 90 20 </string>
+      <string name="bounds">265 206 285 296 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="24">
+      <int name="controlID">4</int>
+      <string name="title">A &lt;--&gt; C</string>
+      <string name="viewFrame">64 110 66 18 </string>
+      <string name="bounds">110 64 128 130 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="12">
+      <int name="controlID">29</int>
+      <int name="numRows">1</int>
+      <int name="numCols">6</int>
+      <int name="intercellHeight">0</int>
+      <array count="1" name="radioTitles">
+        <array count="6">
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+          <string></string>
+        </array>
+      </array>
+      <string name="viewFrame">149 131 176 18 </string>
+      <string name="bounds">131 149 149 325 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="3">
+      <int name="controlID">8</int>
+      <string name="title">C &lt;--&gt; T</string>
+      <string name="viewFrame">64 198 66 18 </string>
+      <string name="bounds">198 64 216 130 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="18">
+      <int name="controlID">12</int>
+      <string name="title">c</string>
+      <string name="viewFrame">212 88 12 16 </string>
+      <string name="bounds">88 212 104 224 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="5">
+      <int name="controlID">5</int>
+      <string name="title">A &lt;--&gt; G</string>
+      <string name="viewFrame">64 132 66 18 </string>
+      <string name="bounds">132 64 150 130 </string>
+    </object>
+    <object class="IBCarbonWindow" id="25">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <string name="title">Custom GTR Submodel</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 417 305 </string>
+        <array count="22" name="subviews">
+          <object class="IBCarbonButton" id="11">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">307 265 90 20 </string>
+            <string name="bounds">265 307 285 397 </string>
+          </object>
+          <reference idRef="9"/>
+          <object class="IBCarbonStaticText" id="6">
+            <int name="controlID">3</int>
+            <int name="controlSize">1</int>
+            <string name="title">The most general time-reversible model assigns each substitution to its own class.  To request a more restricted submodel, assign each substitution to a class, using as many classes as desired.</string>
+            <string name="viewFrame">20 20 331 62 </string>
+            <string name="bounds">20 20 82 351 </string>
+          </object>
+          <reference idRef="24"/>
+          <reference idRef="5"/>
+          <object class="IBCarbonStaticText" id="22">
+            <int name="controlID">6</int>
+            <string name="title">A &lt;--&gt; T</string>
+            <string name="viewFrame">64 154 66 18 </string>
+            <string name="bounds">154 64 172 130 </string>
+          </object>
+          <reference idRef="23"/>
+          <reference idRef="3"/>
+          <object class="IBCarbonStaticText" id="21">
+            <int name="controlID">9</int>
+            <string name="title">G &lt;--&gt; T</string>
+            <string name="viewFrame">64 220 66 18 </string>
+            <string name="bounds">220 64 238 130 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="20">
+            <int name="controlID">10</int>
+            <string name="title">a</string>
+            <string name="viewFrame">155 88 12 16 </string>
+            <string name="bounds">88 155 104 167 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="13">
+            <int name="controlID">11</int>
+            <string name="title">b</string>
+            <string name="viewFrame">183 88 12 16 </string>
+            <string name="bounds">88 183 104 195 </string>
+          </object>
+          <reference idRef="18"/>
+          <object class="IBCarbonStaticText" id="19">
+            <int name="controlID">13</int>
+            <string name="title">d</string>
+            <string name="viewFrame">241 88 12 16 </string>
+            <string name="bounds">88 241 104 253 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="10">
+            <int name="controlID">14</int>
+            <string name="title">e</string>
+            <string name="viewFrame">271 88 12 16 </string>
+            <string name="bounds">88 271 104 283 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="7">
+            <int name="controlID">15</int>
+            <string name="title">f</string>
+            <string name="viewFrame">301 88 12 16 </string>
+            <string name="bounds">88 301 104 313 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="4">
+            <int name="controlID">58</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="viewFrame">385 5 25 25 </string>
+            <string name="bounds">5 385 30 410 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <reference idRef="15"/>
+          <reference idRef="12"/>
+          <object class="IBCarbonRadioGroup" id="8">
+            <int name="controlID">36</int>
+            <int name="numRows">1</int>
+            <int name="numCols">6</int>
+            <int name="intercellHeight">0</int>
+            <array count="1" name="radioTitles">
+              <array count="6">
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+              </array>
+            </array>
+            <string name="viewFrame">149 153 176 18 </string>
+            <string name="bounds">153 149 171 325 </string>
+          </object>
+          <reference idRef="16"/>
+          <reference idRef="14"/>
+          <object class="IBCarbonRadioGroup" id="17">
+            <int name="controlID">57</int>
+            <int name="numRows">1</int>
+            <int name="numCols">6</int>
+            <int name="intercellHeight">0</int>
+            <array count="1" name="radioTitles">
+              <array count="6">
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+                <string></string>
+              </array>
+            </array>
+            <string name="viewFrame">149 219 176 18 </string>
+            <string name="bounds">219 149 237 325 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 305 417 </string>
+      </object>
+      <string name="windowRect">-84 118 221 535 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="11"/>
+    <reference idRef="20"/>
+    <reference idRef="17"/>
+    <reference idRef="22"/>
+    <reference idRef="6"/>
+    <reference idRef="19"/>
+    <reference idRef="4"/>
+    <reference idRef="8"/>
+    <reference idRef="7"/>
+    <reference idRef="21"/>
+    <reference idRef="10"/>
+    <reference idRef="13"/>
+    <reference idRef="2"/>
+  </array>
+  <array count="24" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="25"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CustomGTR</string>
+    <reference idRef="25"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">26</unsigned_int>
+</object>

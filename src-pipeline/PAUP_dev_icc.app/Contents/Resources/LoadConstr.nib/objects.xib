@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonCheckBox" id="6">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">2</int>
+      <string name="title">Load as &quot;backbone&quot; constraints</string>
+      <string name="bounds">27 30 45 255 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <array count="1" name="subviews">
+        <object class="IBCarbonUserPane" id="3">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">4</int>
+          <int name="featureBits">2</int>
+          <array count="3" name="subviews">
+            <reference idRef="6"/>
+            <object class="IBCarbonCheckBox" id="4">
+              <ostype name="controlSignature">DLS </ostype>
+              <int name="controlID">1</int>
+              <string name="title">Append to existing constraints</string>
+              <string name="bounds">6 30 24 261 </string>
+            </object>
+            <object class="IBCarbonRoundButton" id="5">
+              <ostype name="controlSignature">DLS </ostype>
+              <int name="controlID">3</int>
+              <string name="bounds">15 454 40 479 </string>
+              <int name="contentType">132</int>
+              <int name="iconCreator">1835098995</int>
+              <int name="iconType">1751477360</int>
+            </object>
+          </array>
+          <string name="bounds">0 10 56 497 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 56 497 </string>
+    </object>
+    <reference idRef="3"/>
+    <reference idRef="4"/>
+    <reference idRef="5"/>
+    <object class="IBCarbonWindow" id="7">
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">13</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">681 159 737 656 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="3"/>
+    <reference idRef="7"/>
+    <reference idRef="2"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LoadConstr</string>
+    <reference idRef="7"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">8</unsigned_int>
+</object>

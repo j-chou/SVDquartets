@@ -1,0 +1,32 @@
+#!/bin/bash                                                                      
+
+MODELPATH=~/AGBsvdquartets/15-taxon_redo
+#usage: ./get_FN_rates.sh 25
+for N in 10 25 50 100 200; do
+    for K in 100 500 1000; do
+	for METHOD in svdquartets_paup; do
+
+            #remove old files
+	    cd ${MODELPATH}
+	    rm -f temp_${METHOD}_${N}_${K}
+	    rm -f FN_${METHOD}_${N}_${K}_R_format.txt
+	    touch temp_${METHOD}_${N}_${K}
+	    touch FN_${METHOD}_${N}_${K}_R_format.txt
+            #calculate FN rates for ${METHOD}
+	    for SPECIESNUMBER in {1..10}; do 
+		~/phylogenetic_tools/tree_comp/compareTrees.missingBranch ~/scratch/15-taxon_redo/S_relabeled_tree.trees ${MODELPATH}/15-taxon_svdquartets_paup_trees/${METHOD}_R${SPECIESNUMBER}_${N}_sites_${K}_genes.tree >> ${MODELPATH}/temp_${METHOD}_${N}_${K}
+	    done
+            #format FN rates file
+	    rm -f FN_${METHOD}_${N}_${K}
+	    touch FN_${METHOD}_${N}_${K}
+	    awk -vORS=, '{ print $3 }' temp_${METHOD}_${N}_${K} | sed 's/,$/\n/' >> FN_${METHOD}_${N}_${K}
+	    rm temp_${METHOD}_${N}_${K}
+
+            #write ${METHOD} FN rates in correct format for R 
+	    TEMP=$(cat FN_${METHOD}_${N}_${K})
+	    echo "taxa15_"${METHOD}"_"${N}"_sites_"${K}"_genes=c("${TEMP}")" >> FN_${METHOD}_${N}_${K}_R_format.txt
+	    rm FN_${METHOD}_${N}_${K}
+done
+done
+done
+

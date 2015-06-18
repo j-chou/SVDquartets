@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">2</int>
+      <ostype name="command">ok  </ostype>
+      <string name="title">How To Cite...</string>
+      <string name="viewFrame">463 307 140 20 </string>
+      <string name="bounds">307 463 327 603 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="36">
+      <int name="controlID">8</int>
+      <int name="fontStyle">4</int>
+      <string name="title">http://paup.sc.fsu.edu/</string>
+      <string name="viewFrame">181 116 158 16 </string>
+      <string name="bounds">116 181 132 339 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="37">
+      <int name="controlID">9</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">Special thanks...</string>
+      <string name="viewFrame">37 143 550 124 </string>
+      <string name="bounds">143 37 267 587 </string>
+    </object>
+    <object class="IBCarbonWindow" id="9">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">1</int>
+      <int name="windowPosition">1</int>
+      <string name="title">AboutPaup</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 623 382 </string>
+        <array count="11" name="subviews">
+          <reference idRef="5"/>
+          <object class="IBCarbonButton" id="28">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">463 342 140 20 </string>
+            <string name="bounds">342 463 362 603 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="30">
+            <int name="controlID">3</int>
+            <string name="title">PAUP* was written by:</string>
+            <string name="viewFrame">37 20 138 16 </string>
+            <string name="bounds">20 37 36 175 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="40">
+            <int name="controlID">6</int>
+            <string name="title">Technical assistance:</string>
+            <string name="viewFrame">35 100 138 16 </string>
+            <string name="bounds">100 35 116 173 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="38">
+            <int name="controlID">10</int>
+            <string name="title">To obtain copies of PAUP*, contact:</string>
+            <string name="viewFrame">37 270 233 16 </string>
+            <string name="bounds">270 37 286 270 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="35">
+            <int name="controlID">7</int>
+            <int name="fontStyle">4</int>
+            <string name="title">paup-support@sc.fsu.edu</string>
+            <string name="viewFrame">181 100 176 16 </string>
+            <string name="bounds">100 181 116 357 </string>
+          </object>
+          <reference idRef="36"/>
+          <object class="IBCarbonStaticText" id="33">
+            <int name="controlID">4</int>
+            <int name="fontStyle">4</int>
+            <string name="title">David L. Swofford</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">181 20 321 16 </string>
+            <string name="bounds">20 181 36 502 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="34">
+            <int name="controlID">5</int>
+            <int name="fontStyle">-3</int>
+            <string name="title">  Institute for Genome Sciences and Policy&#10;Box 90338&#10;Duke University Durham, NC 27708 USA</string>
+            <string name="viewFrame">181 37 240 57 </string>
+            <string name="bounds">37 181 94 421 </string>
+          </object>
+          <reference idRef="37"/>
+          <object class="IBCarbonStaticText" id="39">
+            <int name="controlID">11</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">Sinauer Associates, Inc.&#10;23 Plumtree Road&#10;Sunderland, MA  01375-0407&#10;Phone: (413) 549 4300  FAX: (413) 549 1118&#10;E-mail: orders@sinauer.com&#10;Web: http://www.sinauer.com</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">59 289 272 83 </string>
+            <string name="bounds">289 59 372 331 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 382 623 </string>
+      </object>
+      <string name="windowRect">205 53 587 676 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="2"/>
+    <reference idRef="40"/>
+    <reference idRef="33"/>
+    <reference idRef="35"/>
+    <reference idRef="30"/>
+    <reference idRef="34"/>
+    <reference idRef="39"/>
+    <reference idRef="28"/>
+    <reference idRef="38"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>AboutPaupInfoCredits</string>
+    <reference idRef="9"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">41</unsigned_int>
+</object>

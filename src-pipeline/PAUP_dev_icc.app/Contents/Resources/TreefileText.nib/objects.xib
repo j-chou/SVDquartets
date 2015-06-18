@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonEditText" id="7">
+      <int name="controlID">4</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">11 38 374 115 </string>
+      <string name="bounds">38 11 153 385 </string>
+    </object>
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">237 179 70 20 </string>
+      <string name="bounds">179 237 199 307 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="6">
+      <int name="controlID">3</int>
+      <string name="title">Text to be included in treefile:</string>
+      <string name="viewFrame">8 9 204 16 </string>
+      <string name="bounds">9 8 25 212 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 400 210 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonButton" id="4">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <string name="title">OK</string>
+          <string name="viewFrame">319 179 70 20 </string>
+          <string name="bounds">179 319 199 389 </string>
+        </object>
+        <reference idRef="5"/>
+        <reference idRef="6"/>
+        <reference idRef="7"/>
+        <object class="IBCarbonRoundButton" id="3">
+          <int name="controlID">5</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">370 5 25 25 </string>
+          <string name="bounds">5 370 30 395 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+      </array>
+      <string name="bounds">0 0 210 400 </string>
+    </object>
+    <reference idRef="3"/>
+    <reference idRef="4"/>
+    <object class="IBCarbonWindow" id="8">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">3</int>
+      <int name="windowPosition">7</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">-106 36 104 436 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="8"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TreefileText</string>
+    <reference idRef="8"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">9</unsigned_int>
+</object>

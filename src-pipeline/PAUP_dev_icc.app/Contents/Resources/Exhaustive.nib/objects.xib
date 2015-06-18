@@ -1,0 +1,282 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="30" name="allObjects">
+    <object class="IBCarbonRadioButton" id="21">
+      <int name="controlID">5</int>
+      <string name="title">Histogram with</string>
+      <string name="viewFrame">18 30 121 18 </string>
+      <string name="bounds">48 42 66 163 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="23">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">8</int>
+      <string name="title">classes</string>
+      <string name="viewFrame">182 32 50 16 </string>
+      <string name="bounds">50 206 66 256 </string>
+    </object>
+    <object class="IBCarbonButton" id="15">
+      <int name="controlID">3</int>
+      <string name="title">Defaults…</string>
+      <string name="viewFrame">20 260 90 20 </string>
+      <string name="bounds">260 20 280 110 </string>
+    </object>
+    <object class="IBCarbonCustom" id="26">
+      <int name="controlID">7</int>
+      <ostype name="command">MAIN</ostype>
+      <int name="CDEFResID">26</int>
+      <unsigned_int name="controlDefType">0</unsigned_int>
+      <string name="viewFrame">16 28 22 45 </string>
+      <string name="bounds">46 40 91 62 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="29">
+      <string name="title">Item 1</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonRadioButton" id="22">
+      <int name="controlID">6</int>
+      <string name="title">Simple bar-chart</string>
+      <string name="viewFrame">18 53 132 18 </string>
+      <string name="bounds">71 42 89 174 </string>
+    </object>
+    <object class="IBCarbonButton" id="5">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">343 260 90 20 </string>
+      <string name="bounds">260 343 280 433 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 555 300 </string>
+      <array count="18" name="subviews">
+        <object class="IBCarbonGroupBox" id="11">
+          <int name="controlID">17</int>
+          <string name="title">Enforce topological constraints</string>
+          <int name="titleType">1</int>
+          <string name="viewFrame">24 134 264 111 </string>
+          <string name="bounds">134 24 245 288 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="6">
+          <int name="controlID">15</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Keep</string>
+          <string name="viewFrame">313 22 212 79 </string>
+          <string name="bounds">22 313 101 525 </string>
+        </object>
+        <object class="IBCarbonButton" id="12">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Search</string>
+          <string name="viewFrame">445 260 90 20 </string>
+          <string name="bounds">260 445 280 535 </string>
+        </object>
+        <reference idRef="5"/>
+        <reference idRef="15"/>
+        <object class="IBCarbonRadioButton" id="18">
+          <int name="controlID">12</int>
+          <string name="title">optimal trees only</string>
+          <string name="viewFrame">324 47 144 18 </string>
+          <string name="bounds">47 324 65 468 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="16">
+          <int name="controlID">13</int>
+          <string name="title">all trees ≤ score</string>
+          <string name="viewFrame">324 69 126 18 </string>
+          <string name="bounds">69 324 87 450 </string>
+        </object>
+        <object class="IBCarbonEditText" id="4">
+          <int name="controlID">11</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">455 71 56 16 </string>
+          <string name="bounds">71 455 87 511 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="9">
+          <int name="controlID">16</int>
+          <string name="title">Save tree scores to file</string>
+          <string name="viewFrame">311 155 176 18 </string>
+          <string name="bounds">155 311 173 487 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="17">
+          <int name="controlID">19</int>
+          <string name="title">Keep trees that…</string>
+          <string name="viewFrame">36 186 121 16 </string>
+          <string name="bounds">186 36 202 157 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="14">
+          <int name="controlID">20</int>
+          <string name="title">Are</string>
+          <string name="viewFrame">63 202 44 18 </string>
+          <string name="bounds">202 63 220 107 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="7">
+          <int name="controlID">21</int>
+          <string name="title">Are NOT</string>
+          <string name="viewFrame">115 202 72 18 </string>
+          <string name="bounds">202 115 220 187 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="13">
+          <int name="controlID">23</int>
+          <string name="title">…compatible with constraints</string>
+          <string name="viewFrame">64 223 201 16 </string>
+          <string name="bounds">223 64 239 265 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="10">
+          <int name="controlID">18</int>
+          <boolean name="variableWith">TRUE</boolean>
+          <object name="menu" class="IBCarbonMenu" id="27">
+            <string name="title">Popup</string>
+            <array count="3" name="items">
+              <reference idRef="29"/>
+              <object class="IBCarbonMenuItem" id="28">
+                <string name="title">Item 2</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="30">
+                <string name="title">Item 3</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <string name="title">Constraints: </string>
+          <int name="titleJustification">-2</int>
+          <string name="viewFrame">36 164 210 20 </string>
+          <string name="bounds">164 36 184 246 </string>
+        </object>
+        <object class="IBCarbonCustom" id="19">
+          <int name="controlID">22</int>
+          <int name="CDEFResID">26</int>
+          <unsigned_int name="controlDefType">0</unsigned_int>
+          <string name="viewFrame">48 201 169 22 </string>
+          <string name="bounds">201 48 223 217 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="8">
+          <int name="controlID">24</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">524 5 25 25 </string>
+          <string name="bounds">5 524 30 549 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonCustom" id="3">
+          <int name="controlID">14</int>
+          <int name="CDEFResID">26</int>
+          <unsigned_int name="controlDefType">0</unsigned_int>
+          <string name="viewFrame">323 45 22 45 </string>
+          <string name="bounds">45 323 90 345 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="20">
+          <int name="controlID">10</int>
+          <string name="title">Tree-score frequency distribution</string>
+          <int name="titleType">1</int>
+          <string name="viewFrame">24 18 264 107 </string>
+          <array count="6" name="subviews">
+            <reference idRef="22"/>
+            <reference idRef="21"/>
+            <object class="IBCarbonEditText" id="25">
+              <int name="controlID">4</int>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="viewFrame">144 32 30 16 </string>
+              <string name="bounds">50 168 66 198 </string>
+            </object>
+            <reference idRef="23"/>
+            <object class="IBCarbonCheckBox" id="24">
+              <int name="controlID">9</int>
+              <string name="title">Save to file</string>
+              <string name="viewFrame">11 79 96 18 </string>
+              <string name="bounds">97 35 115 131 </string>
+            </object>
+            <reference idRef="26"/>
+          </array>
+          <string name="bounds">18 24 125 288 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 300 555 </string>
+    </object>
+    <reference idRef="12"/>
+    <reference idRef="8"/>
+    <reference idRef="11"/>
+    <reference idRef="17"/>
+    <object class="IBCarbonWindow" id="31">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Exhaustive Search</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">44 499 344 1054 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="25"/>
+    <reference idRef="28"/>
+    <reference idRef="20"/>
+    <reference idRef="16"/>
+    <reference idRef="24"/>
+    <reference idRef="13"/>
+    <reference idRef="6"/>
+    <reference idRef="27"/>
+    <reference idRef="14"/>
+    <reference idRef="7"/>
+    <reference idRef="18"/>
+    <reference idRef="3"/>
+    <reference idRef="9"/>
+    <reference idRef="10"/>
+    <reference idRef="19"/>
+    <reference idRef="30"/>
+    <reference idRef="4"/>
+  </array>
+  <array count="30" name="allParents">
+    <reference idRef="20"/>
+    <reference idRef="20"/>
+    <reference idRef="2"/>
+    <reference idRef="20"/>
+    <reference idRef="27"/>
+    <reference idRef="20"/>
+    <reference idRef="2"/>
+    <reference idRef="31"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="20"/>
+    <reference idRef="27"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="20"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="27"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>Exhaustive</string>
+    <reference idRef="31"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">33</unsigned_int>
+</object>

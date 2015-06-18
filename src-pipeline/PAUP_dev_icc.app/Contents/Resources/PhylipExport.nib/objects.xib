@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonRoundButton" id="9">
+      <int name="controlID">14</int>
+      <string name="viewFrame">438 9 25 25 </string>
+      <string name="bounds">9 438 34 463 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonButton" id="7">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">256 264 90 20 </string>
+      <string name="bounds">264 256 284 346 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="4">
+      <int name="controlID">5</int>
+      <string name="title">For UNORDERED multistate  (including stepmatrix) characters…</string>
+      <string name="viewFrame">52 52 257 32 </string>
+      <string name="bounds">52 52 84 309 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="5">
+      <int name="controlID">8</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Exclude from exported file</string>
+        </array>
+        <array count="1">
+          <string>Export unmodified</string>
+        </array>
+      </array>
+      <string name="viewFrame">77 92 209 39 </string>
+      <string name="bounds">92 77 131 286 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="11">
+      <int name="controlID">13</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Exclude from exported file</string>
+        </array>
+        <array count="1">
+          <string>Transform using additive binary coding</string>
+        </array>
+        <array count="1">
+          <string>Export unmodified</string>
+        </array>
+      </array>
+      <string name="viewFrame">77 179 281 65 </string>
+      <string name="bounds">179 77 244 358 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 468 304 </string>
+      <array count="9" name="subviews">
+        <object class="IBCarbonButton" id="8">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">358 264 90 20 </string>
+          <string name="bounds">264 358 284 448 </string>
+        </object>
+        <reference idRef="7"/>
+        <object class="IBCarbonStaticText" id="3">
+          <int name="controlID">4</int>
+          <string name="title">Phylip programs for discrete (0/1) non-sequence characters cannot handle characters with more than two states.</string>
+          <string name="viewFrame">26 10 387 34 </string>
+          <string name="bounds">10 26 44 413 </string>
+        </object>
+        <reference idRef="4"/>
+        <object class="IBCarbonStaticText" id="10">
+          <int name="controlID">9</int>
+          <string name="title">For ORDERED multistate (including Dollo, irreversible, and character-state-tree) characters…</string>
+          <string name="viewFrame">52 139 350 32 </string>
+          <string name="bounds">139 52 171 402 </string>
+        </object>
+        <reference idRef="9"/>
+        <reference idRef="5"/>
+        <reference idRef="11"/>
+        <object class="IBCarbonButton" id="6">
+          <int name="controlID">3</int>
+          <ostype name="command">not!</ostype>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 264 94 20 </string>
+          <string name="bounds">264 20 284 114 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 304 468 </string>
+    </object>
+    <object class="IBCarbonWindow" id="12">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Phylip Export</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">311 56 615 524 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="10"/>
+    <reference idRef="3"/>
+    <reference idRef="8"/>
+    <reference idRef="6"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="12"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PhylipExport</string>
+    <reference idRef="12"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">13</unsigned_int>
+</object>

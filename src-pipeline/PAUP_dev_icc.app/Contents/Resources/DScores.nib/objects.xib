@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="12" name="allObjects">
+    <object class="IBCarbonButton" id="1571">
+      <int name="controlID">4</int>
+      <string name="title">All</string>
+      <string name="viewFrame">33 66 45 20 </string>
+      <string name="bounds">66 33 86 78 </string>
+    </object>
+    <object class="IBCarbonWindow" id="1566">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Distance Scores</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="1567">
+        <string name="viewFrame">0 0 363 400 </string>
+        <array count="10" name="subviews">
+          <object class="IBCarbonButton" id="1568">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">273 360 70 20 </string>
+            <string name="bounds">360 273 380 343 </string>
+          </object>
+          <object class="IBCarbonButton" id="1569">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">191 360 70 20 </string>
+            <string name="bounds">360 191 380 261 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="1570">
+            <int name="controlID">3</int>
+            <string name="title">Trees:</string>
+            <string name="viewFrame">33 25 44 16 </string>
+            <string name="bounds">25 33 41 77 </string>
+          </object>
+          <reference idRef="1571"/>
+          <object class="IBCarbonButton" id="1573">
+            <int name="controlID">6</int>
+            <string name="title">Distance Options…</string>
+            <string name="viewFrame">112 243 160 20 </string>
+            <string name="bounds">243 112 263 272 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="1574">
+            <int name="controlID">7</int>
+            <string name="title">Save distance scores to text file</string>
+            <string name="viewFrame">42 274 251 18 </string>
+            <string name="bounds">274 42 292 293 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="4540">
+            <int name="controlID">9</int>
+            <string name="title">Show detailed least-squares output</string>
+            <string name="viewFrame">42 322 251 18 </string>
+            <string name="bounds">322 42 340 293 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="1575">
+            <int name="controlID">8</int>
+            <string name="title">Suppress main display output</string>
+            <string name="viewFrame">62 296 221 18 </string>
+            <string name="bounds">296 62 314 283 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="2157">
+            <int name="controlID">10</int>
+            <string name="viewFrame">332 6 25 25 </string>
+            <string name="bounds">6 332 31 357 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <object class="IBCarbonDBListView" id="2159">
+            <int name="controlID">5</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">111 20 162 203 </string>
+            <string name="bounds">20 111 223 273 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 400 363 </string>
+      </object>
+      <string name="windowRect">194 422 594 785 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="1575"/>
+    <reference idRef="1574"/>
+    <reference idRef="4540"/>
+    <reference idRef="1569"/>
+    <reference idRef="2159"/>
+    <reference idRef="1568"/>
+    <reference idRef="1570"/>
+    <reference idRef="2157"/>
+    <reference idRef="1573"/>
+    <reference idRef="1567"/>
+  </array>
+  <array count="12" name="allParents">
+    <reference idRef="1567"/>
+    <reference idRef="1"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1567"/>
+    <reference idRef="1566"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DScores</string>
+    <reference idRef="1566"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">4541</unsigned_int>
+</object>

@@ -1,0 +1,330 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonMenu" id="29">
+      <string name="title">BevelMenu</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="32">
+          <string name="title">Item1</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="31">
+          <string name="title">Item2</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="30">
+          <string name="title">Item3</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonButton" id="6">
+      <int name="controlID">8</int>
+      <string name="title">← Include</string>
+      <string name="viewFrame">214 178 120 20 </string>
+      <string name="bounds">178 214 198 334 </string>
+    </object>
+    <object class="IBCarbonButton" id="11">
+      <int name="controlID">5</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">2</int>
+      </object>
+      <string name="title">All</string>
+      <string name="viewFrame">31 310 50 20 </string>
+      <string name="bounds">310 31 330 81 </string>
+    </object>
+    <object class="IBCarbonMenu" id="17">
+      <string name="title">BevelMenu</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="19">
+          <string name="title">Item1</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="18">
+          <string name="title">Item2</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="20">
+          <string name="title">Item3</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonWindow" id="33">
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Exclude Characters</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 550 406 </string>
+        <array count="14" name="subviews">
+          <object class="IBCarbonStaticText" id="5">
+            <int name="controlID">3</int>
+            <string name="title">Included characters:</string>
+            <string name="viewFrame">30 19 175 16 </string>
+            <string name="bounds">19 30 35 205 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="4">
+            <int name="controlID">9</int>
+            <string name="title">Excluded characters:</string>
+            <string name="viewFrame">342 19 155 16 </string>
+            <string name="bounds">19 342 35 497 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="7">
+            <int name="controlID">4</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">0</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">26 43 180 256 </string>
+            <string name="bounds">43 26 299 206 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="8">
+            <int name="controlID">10</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">0</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">342 43 180 256 </string>
+            <string name="bounds">43 342 299 522 </string>
+          </object>
+          <object class="IBCarbonButton" id="15">
+            <int name="controlID">7</int>
+            <string name="title">Exclude →</string>
+            <string name="viewFrame">214 138 120 20 </string>
+            <string name="bounds">138 214 158 334 </string>
+          </object>
+          <reference idRef="6"/>
+          <object class="IBCarbonRoundButton" id="16">
+            <int name="controlID">14</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="viewFrame">518 7 25 25 </string>
+            <string name="bounds">7 518 32 543 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <object class="IBCarbonButton" id="12">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">468 366 70 20 </string>
+            <string name="bounds">366 468 386 538 </string>
+          </object>
+          <object class="IBCarbonButton" id="13">
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">386 366 70 20 </string>
+            <string name="bounds">366 386 386 456 </string>
+          </object>
+          <reference idRef="11"/>
+          <object class="IBCarbonButton" id="9">
+            <int name="controlID">11</int>
+            <int name="controlSize">1</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <string name="title">All</string>
+            <string name="viewFrame">348 310 50 20 </string>
+            <string name="bounds">310 348 330 398 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="10">
+            <int name="controlID">6</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">8192</int>
+            <object name="menu" class="IBCarbonMenu" id="21">
+              <string name="title">BevelMenu</string>
+              <array count="3" name="items">
+                <object class="IBCarbonMenuItem" id="23">
+                  <string name="title">Item1</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="22">
+                  <string name="title">Item2</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="24">
+                  <string name="title">Item3</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+            <string name="title">CharSets</string>
+            <string name="viewFrame">105 310 99 20 </string>
+            <string name="bounds">310 105 330 204 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="3">
+            <int name="controlID">12</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="contentType">0</int>
+            <int name="textPlacement">3</int>
+            <int name="menuBehavior">8192</int>
+            <reference name="menu" idRef="29"/>
+            <string name="title">CharSets</string>
+            <string name="viewFrame">418 310 99 20 </string>
+            <string name="bounds">310 418 330 517 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="14">
+            <int name="controlID">13</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">8192</int>
+            <reference name="menu" idRef="17"/>
+            <string name="title">ExSets</string>
+            <string name="viewFrame">226 310 99 20 </string>
+            <string name="bounds">310 226 330 325 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 406 550 </string>
+      </object>
+      <string name="windowRect">754 1269 1160 1819 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="24"/>
+    <reference idRef="30"/>
+    <reference idRef="31"/>
+    <reference idRef="13"/>
+    <reference idRef="12"/>
+    <reference idRef="8"/>
+    <reference idRef="9"/>
+    <reference idRef="5"/>
+    <reference idRef="14"/>
+    <reference idRef="3"/>
+    <reference idRef="10"/>
+    <reference idRef="19"/>
+    <reference idRef="21"/>
+    <reference idRef="7"/>
+    <reference idRef="16"/>
+    <reference idRef="20"/>
+    <reference idRef="4"/>
+    <reference idRef="23"/>
+    <reference idRef="2"/>
+    <reference idRef="22"/>
+    <reference idRef="18"/>
+    <reference idRef="32"/>
+    <reference idRef="15"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="3"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="14"/>
+    <reference idRef="1"/>
+    <reference idRef="21"/>
+    <reference idRef="29"/>
+    <reference idRef="29"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="17"/>
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="17"/>
+    <reference idRef="2"/>
+    <reference idRef="21"/>
+    <reference idRef="33"/>
+    <reference idRef="21"/>
+    <reference idRef="17"/>
+    <reference idRef="29"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>IncludeExclude</string>
+    <reference idRef="33"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">34</unsigned_int>
+</object>

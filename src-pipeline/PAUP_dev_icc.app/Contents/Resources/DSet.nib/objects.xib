@@ -1,0 +1,788 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="80" name="allObjects">
+    <object class="IBCarbonStaticText" id="4590">
+      <int name="controlID">14</int>
+      <string name="title">Length =</string>
+      <string name="viewFrame">383 82 64 16 </string>
+      <string name="bounds">97 403 113 467 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="4583">
+      <string name="title">Item 2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonButton" id="4546">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">356 405 90 20 </string>
+      <string name="bounds">405 356 425 446 </string>
+    </object>
+    <object class="IBCarbonButton" id="4548">
+      <int name="controlID">3</int>
+      <string name="title">Defaults…</string>
+      <string name="viewFrame">20 405 90 20 </string>
+      <string name="bounds">405 20 425 110 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="4586">
+      <string name="title">Item 3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonMenuItem" id="4602">
+      <string name="title">Item 2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonRadioButton" id="4617">
+      <int name="controlID">106</int>
+      <string name="title">Minimum evolution (ME/OLS)</string>
+      <string name="viewFrame">21 170 215 18 </string>
+      <string name="bounds">738 44 756 259 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="4559">
+      <int name="controlID">1003</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">544 824 421 126 </string>
+      <array count="2" name="subviews">
+        <object class="IBCarbonStaticText" id="4562">
+          <int name="controlID">401</int>
+          <string name="title">Treatment of &quot;missing-data&quot; cells (including gaps) and and ambiguity codes:</string>
+          <string name="viewFrame">20 20 331 36 </string>
+          <string name="bounds">844 564 880 895 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="4561">
+          <int name="controlID">404</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Distribute proportionally to unambiguous changes</string>
+            </array>
+            <array count="1">
+              <string>Ignore sites for affected pairwise comparisons</string>
+            </array>
+          </array>
+          <string name="viewFrame">58 64 343 42 </string>
+          <string name="bounds">888 602 930 945 </string>
+        </object>
+      </array>
+      <string name="bounds">824 544 950 965 </string>
+    </object>
+    <object class="IBCarbonGroupBox" id="4550">
+      <int name="controlID">5</int>
+      <int name="fontStyle">5</int>
+      <string name="title">Choose Distance</string>
+      <string name="viewFrame">20 15 526 137 </string>
+      <array count="2" name="subviews">
+        <object class="IBCarbonEditText" id="4589">
+          <int name="controlID">15</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">448 82 37 16 </string>
+          <string name="bounds">97 468 113 505 </string>
+        </object>
+        <reference idRef="4590"/>
+      </array>
+      <string name="bounds">15 20 152 546 </string>
+    </object>
+    <object class="IBCarbonTab" id="4547">
+      <int name="controlID">16</int>
+      <int name="fontStyle">-2</int>
+      <string name="viewFrame">20 161 526 229 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonUserPane" id="4596">
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 37 526 192 </string>
+          <string name="bounds">198 20 390 546 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="4597">
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 37 526 192 </string>
+          <string name="bounds">198 20 390 546 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="4598">
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 37 526 192 </string>
+          <string name="bounds">198 20 390 546 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="4599">
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 37 526 192 </string>
+          <string name="bounds">198 20 390 546 </string>
+        </object>
+        <object class="IBCarbonUserPane" id="4600">
+          <int name="featureBits">2</int>
+          <string name="viewFrame">0 37 526 192 </string>
+          <string name="bounds">198 20 390 546 </string>
+        </object>
+      </array>
+      <string name="bounds">161 20 390 546 </string>
+      <array count="5" name="tabItems">
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Objective Function</string>
+          <string>userPane</string>
+          <reference idRef="4596"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Neg. Branch Lengths</string>
+          <string>userPane</string>
+          <reference idRef="4597"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>A.S.R.V.</string>
+          <string>userPane</string>
+          <reference idRef="4598"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Missing/Ambig</string>
+          <string>userPane</string>
+          <reference idRef="4599"/>
+        </dictionary>
+        <dictionary count="4">
+          <string>contentResID</string>
+          <string>0</string>
+          <string>tabEnabled</string>
+          <string>1</string>
+          <string>tabName</string>
+          <string>Other</string>
+          <string>userPane</string>
+          <reference idRef="4600"/>
+        </dictionary>
+      </array>
+      <int name="tabSelection">3</int>
+    </object>
+    <object class="IBCarbonRadioButton" id="4618">
+      <int name="controlID">101</int>
+      <string name="title">Unweighted least-squares (power = 0)</string>
+      <string name="viewFrame">21 4 276 18 </string>
+      <string name="bounds">572 44 590 320 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="4557">
+      <int name="controlID">1002</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">518 582 459 185 </string>
+      <array count="9" name="subviews">
+        <object class="IBCarbonEditText" id="4566">
+          <int name="controlID">302</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">325 23 70 16 </string>
+          <string name="bounds">605 843 621 913 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="4568">
+          <int name="controlID">305</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Remove in equal proportions for each base</string>
+            </array>
+            <array count="1">
+              <string>Remove in proportion to state frequencies estimated from</string>
+            </array>
+          </array>
+          <string name="viewFrame">37 44 402 42 </string>
+          <string name="bounds">626 555 668 957 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="4574">
+          <int name="controlID">306</int>
+          <string name="title">all sites</string>
+          <string name="viewFrame">81 86 73 19 </string>
+          <string name="bounds">668 599 687 672 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="4567">
+          <int name="controlID">307</int>
+          <string name="title">constant sites only</string>
+          <string name="viewFrame">162 86 145 19 </string>
+          <string name="bounds">668 680 687 825 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4571">
+          <int name="controlID">309</int>
+          <string name="title">Rate for variable sites:</string>
+          <string name="viewFrame">20 120 149 16 </string>
+          <string name="bounds">702 538 718 687 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="4573">
+          <int name="controlID">312</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Equal</string>
+            </array>
+            <array count="1">
+              <string>Gamma, shape =</string>
+            </array>
+          </array>
+          <string name="viewFrame">165 119 130 46 </string>
+          <string name="bounds">701 683 747 813 </string>
+        </object>
+        <object class="IBCarbonEditText" id="4569">
+          <int name="controlID">313</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">306 138 69 16 </string>
+          <string name="bounds">720 824 736 893 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4570">
+          <int name="controlID">301</int>
+          <string name="title">Proportion of sites assumed to be invariable =</string>
+          <string name="viewFrame">20 23 296 16 </string>
+          <string name="bounds">605 538 621 834 </string>
+        </object>
+        <object class="IBCarbonCustom" id="4572">
+          <int name="controlID">308</int>
+          <ostype name="command">MAIN</ostype>
+          <int name="CDEFResID">26</int>
+          <unsigned_int name="controlDefType">0</unsigned_int>
+          <string name="viewFrame">70 82 113 32 </string>
+          <string name="bounds">664 588 696 701 </string>
+        </object>
+      </array>
+      <string name="bounds">582 518 767 977 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="4621">
+      <int name="controlID">104</int>
+      <string name="title">Weighted least squares with user-supplied weights matrix</string>
+      <string name="viewFrame">21 129 408 18 </string>
+      <string name="bounds">697 44 715 452 </string>
+    </object>
+    <object class="IBCarbonEditText" id="4609">
+      <int name="controlID">508</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">251 56 29 16 </string>
+      <string name="bounds">629 1249 645 1278 </string>
+    </object>
+    <reference idRef="4599"/>
+    <object class="IBCarbonRadioButton" id="4580">
+      <int name="controlID">110</int>
+      <string name="title">Weight using power = </string>
+      <string name="viewFrame">59 84 164 18 </string>
+      <string name="bounds">652 82 670 246 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="4544">
+      <int name="controlID">13</int>
+      <object name="menu" class="IBCarbonMenu" id="4601">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="4604">
+            <string name="title">Item 1</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <reference idRef="4602"/>
+          <object class="IBCarbonMenuItem" id="4603">
+            <string name="title">Item 3</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="viewFrame">198 95 183 20 </string>
+      <string name="bounds">95 198 115 381 </string>
+    </object>
+    <reference idRef="4570"/>
+    <reference idRef="4589"/>
+    <reference idRef="4600"/>
+    <reference idRef="4572"/>
+    <object class="IBCarbonRadioButton" id="4549">
+      <int name="controlID">6</int>
+      <string name="title">Standard distances:</string>
+      <string name="viewFrame">38 39 151 18 </string>
+      <string name="bounds">39 38 57 189 </string>
+    </object>
+    <reference idRef="4598"/>
+    <reference idRef="4568"/>
+    <object class="IBCarbonCustom" id="4623">
+      <int name="controlID">107</int>
+      <ostype name="command">MAIN</ostype>
+      <int name="CDEFResID">26</int>
+      <unsigned_int name="controlDefType">0</unsigned_int>
+      <string name="viewFrame">20 -8 19 198 </string>
+      <string name="bounds">560 43 758 62 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="4620">
+      <int name="controlID">103</int>
+      <string name="title">Exponentially weighted least squares with P&apos; =</string>
+      <string name="viewFrame">21 108 319 18 </string>
+      <string name="bounds">676 44 694 363 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="4558">
+      <int name="controlID">1001</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">29 794 455 175 </string>
+      <array count="3" name="subviews">
+        <object class="IBCarbonRadioGroup" id="4564">
+          <int name="controlID">203</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Constrain branch lengths to be nonnegative</string>
+            </array>
+            <array count="1">
+              <string>Allow negative branch lengths.  When calculating tree scores:</string>
+            </array>
+          </array>
+          <string name="viewFrame">20 20 415 45 </string>
+          <string name="bounds">814 49 859 464 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="4563">
+          <int name="controlID">207</int>
+          <int name="numRows">3</int>
+          <array count="3" name="radioTitles">
+            <array count="1">
+              <string>Leave alone</string>
+            </array>
+            <array count="1">
+              <string>Set to zero</string>
+            </array>
+            <array count="1">
+              <string>Set to absolute value</string>
+            </array>
+          </array>
+          <string name="viewFrame">56 62 171 61 </string>
+          <string name="bounds">856 85 917 256 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="4565">
+          <int name="controlID">208</int>
+          <string name="title">Collapse branches of effectively zero length when searching</string>
+          <string name="viewFrame">20 137 409 18 </string>
+          <string name="bounds">931 49 949 458 </string>
+        </object>
+      </array>
+      <string name="bounds">794 29 969 484 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="4560">
+      <int name="controlID">9</int>
+      <string name="title">User-input distance</string>
+      <string name="viewFrame">38 123 151 18 </string>
+      <string name="bounds">123 38 141 189 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="4582">
+      <string name="title">Item 1</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="4562"/>
+    <object class="IBCarbonRadioButton" id="4577">
+      <int name="controlID">108</int>
+      <string name="title">Inverse weighting (power = 1)</string>
+      <string name="viewFrame">59 44 210 19 </string>
+      <string name="bounds">612 82 631 292 </string>
+    </object>
+    <reference idRef="4566"/>
+    <object class="IBCarbonEditText" id="4640">
+      <int name="controlID">518</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">205 175 29 16 </string>
+      <string name="bounds">748 1203 764 1232 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="4554">
+      <int name="controlID">7</int>
+      <string name="title">DNA/RNA distances:</string>
+      <string name="viewFrame">38 67 151 18 </string>
+      <string name="bounds">67 38 85 189 </string>
+    </object>
+    <reference idRef="4573"/>
+    <object class="IBCarbonRadioGroup" id="4625">
+      <int name="controlID">512</int>
+      <int name="intercellHeight">0</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>k=1</string>
+        </array>
+        <array count="1">
+          <string>k = number of non-zero-length branches</string>
+        </array>
+      </array>
+      <string name="viewFrame">151 21 300 36 </string>
+      <string name="bounds">671 1169 707 1469 </string>
+    </object>
+    <reference idRef="4571"/>
+    <reference idRef="4604"/>
+    <object class="IBCarbonEditText" id="4627">
+      <int name="controlID">514</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">125 141 29 16 </string>
+      <string name="bounds">714 1123 730 1152 </string>
+    </object>
+    <object class="IBCarbonEditText" id="4575">
+      <int name="controlID">112</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">227 87 101 16 </string>
+      <string name="bounds">655 250 671 351 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="4656">
+      <int name="controlID">1004</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">998 573 526 214 </string>
+      <array count="10" name="subviews">
+        <object class="IBCarbonGroupBox" id="4630">
+          <int name="controlID">516</int>
+          <int name="fontStyle">5</int>
+          <string name="title">%SD variants</string>
+          <boolean name="autoToggle">FALSE</boolean>
+          <boolean name="primary">FALSE</boolean>
+          <int name="selectedItem">0</int>
+          <string name="viewFrame">20 77 457 90 </string>
+          <array count="3" name="subviews">
+            <object class="IBCarbonStaticText" id="4629">
+              <int name="controlID">509</int>
+              <string name="title">N-k in denominator:</string>
+              <string name="viewFrame">12 23 135 16 </string>
+              <string name="bounds">673 1030 689 1165 </string>
+            </object>
+            <reference idRef="4625"/>
+            <object class="IBCarbonStaticText" id="4628">
+              <int name="controlID">515</int>
+              <string name="title">(to allow for additional fitted parameters)</string>
+              <string name="viewFrame">145 65 265 16 </string>
+              <string name="bounds">715 1163 731 1428 </string>
+            </object>
+          </array>
+          <string name="bounds">650 1018 740 1475 </string>
+        </object>
+        <reference idRef="4609"/>
+        <object class="IBCarbonStaticText" id="4607">
+          <int name="controlID">507</int>
+          <string name="title">Multiplier for undefined distances:</string>
+          <string name="viewFrame">20 55 220 16 </string>
+          <string name="bounds">628 1018 644 1238 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4639">
+          <int name="controlID">517</int>
+          <string name="title">Output precision for scores:</string>
+          <string name="viewFrame">20 175 182 16 </string>
+          <string name="bounds">748 1018 764 1200 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4641">
+          <int name="controlID">519</int>
+          <string name="title">decimals</string>
+          <string name="viewFrame">242 175 113 16 </string>
+          <string name="bounds">748 1240 764 1353 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4626">
+          <int name="controlID">513</int>
+          <string name="title">Increase k by</string>
+          <string name="viewFrame">32 140 87 16 </string>
+          <string name="bounds">713 1030 729 1117 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="4608">
+          <int name="controlID">506</int>
+          <int name="numCols">2</int>
+          <array count="2" name="radioTitles">
+            <array count="2">
+              <string>All substitutions</string>
+              <string>Transitions only</string>
+            </array>
+            <array count="2">
+              <string>Transversions only</string>
+              <string>Ti/Tv ratio</string>
+            </array>
+          </array>
+          <string name="viewFrame">134 9 300 38 </string>
+          <string name="bounds">582 1132 620 1432 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4605">
+          <int name="controlID">501</int>
+          <string name="title">Estimate/Count:</string>
+          <string name="viewFrame">20 10 107 16 </string>
+          <string name="bounds">583 1018 599 1125 </string>
+        </object>
+        <reference idRef="4627"/>
+        <reference idRef="4640"/>
+      </array>
+      <string name="bounds">573 998 787 1524 </string>
+    </object>
+    <reference idRef="4561"/>
+    <object class="IBCarbonMenuItem" id="4584">
+      <string name="title">Item 3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <reference idRef="4597"/>
+    <object class="IBCarbonRoundButton" id="4542">
+      <int name="controlID">4</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">539 4 25 25 </string>
+      <string name="bounds">4 539 29 564 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <object class="IBCarbonButton" id="4545">
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">458 405 90 20 </string>
+      <string name="bounds">405 458 425 548 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="4578">
+      <int name="controlID">109</int>
+      <string name="title">Fitch-Margoliash criterion (power = 2)</string>
+      <string name="viewFrame">59 63 263 19 </string>
+      <string name="bounds">631 82 650 345 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="4553">
+      <int name="controlID">12</int>
+      <object name="menu" class="IBCarbonMenu" id="4581">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <reference idRef="4582"/>
+          <reference idRef="4583"/>
+          <reference idRef="4584"/>
+        </array>
+      </object>
+      <string name="viewFrame">198 67 232 20 </string>
+      <string name="bounds">67 198 87 430 </string>
+    </object>
+    <reference idRef="4581"/>
+    <object class="IBCarbonRootControl" id="4541">
+      <string name="viewFrame">0 0 568 445 </string>
+      <array count="19" name="subviews">
+        <reference idRef="4550"/>
+        <reference idRef="4545"/>
+        <reference idRef="4546"/>
+        <reference idRef="4548"/>
+        <reference idRef="4549"/>
+        <reference idRef="4554"/>
+        <object class="IBCarbonRadioButton" id="4556">
+          <int name="controlID">8</int>
+          <string name="title">RFLP/AFLP distances</string>
+          <string name="viewFrame">38 96 158 18 </string>
+          <string name="bounds">96 38 114 196 </string>
+        </object>
+        <reference idRef="4560"/>
+        <reference idRef="4542"/>
+        <reference idRef="4547"/>
+        <object class="IBCarbonCustom" id="4552">
+          <int name="controlID">10</int>
+          <ostype name="command">MAIN</ostype>
+          <int name="CDEFResID">26</int>
+          <unsigned_int name="controlDefType">0</unsigned_int>
+          <string name="viewFrame">31 35 31 113 </string>
+          <string name="bounds">35 31 148 62 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="4551">
+          <int name="controlID">11</int>
+          <object name="menu" class="IBCarbonMenu" id="4585">
+            <string name="title">Popup</string>
+            <array count="3" name="items">
+              <object class="IBCarbonMenuItem" id="4588">
+                <string name="title">Item 1</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="4587">
+                <string name="title">Item 2</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <reference idRef="4586"/>
+            </array>
+          </object>
+          <string name="viewFrame">186 39 244 20 </string>
+          <string name="bounds">39 186 59 430 </string>
+        </object>
+        <reference idRef="4553"/>
+        <reference idRef="4544"/>
+        <reference idRef="4558"/>
+        <reference idRef="4559"/>
+        <reference idRef="4557"/>
+        <reference idRef="4656"/>
+        <object class="IBCarbonUserPane" id="4657">
+          <int name="controlID">1000</int>
+          <int name="featureBits">2</int>
+          <string name="viewFrame">23 568 467 212 </string>
+          <array count="13" name="subviews">
+            <reference idRef="4620"/>
+            <reference idRef="4623"/>
+            <reference idRef="4618"/>
+            <object class="IBCarbonRadioButton" id="4619">
+              <int name="controlID">102</int>
+              <string name="title">Weighted least squares with standard (&quot;polynomial&quot;) weighting</string>
+              <string name="viewFrame">21 25 426 18 </string>
+              <string name="bounds">593 44 611 470 </string>
+            </object>
+            <reference idRef="4617"/>
+            <object class="IBCarbonRadioButton" id="4665">
+              <int name="controlID">105</int>
+              <string name="title">Balanced minimum evolution (BME)</string>
+              <string name="viewFrame">21 149 250 18 </string>
+              <string name="bounds">717 44 735 294 </string>
+            </object>
+            <object class="IBCarbonEditText" id="4622">
+              <int name="controlID">113</int>
+              <boolean name="isUnicode">TRUE</boolean>
+              <string name="viewFrame">342 108 101 16 </string>
+              <string name="bounds">676 365 692 466 </string>
+            </object>
+            <reference idRef="4621"/>
+            <reference idRef="4577"/>
+            <reference idRef="4578"/>
+            <reference idRef="4580"/>
+            <object class="IBCarbonCustom" id="4576">
+              <int name="controlID">111</int>
+              <ostype name="command">MAIN</ostype>
+              <int name="CDEFResID">26</int>
+              <unsigned_int name="controlDefType">0</unsigned_int>
+              <string name="viewFrame">59 43 19 65 </string>
+              <string name="bounds">611 82 676 101 </string>
+            </object>
+            <reference idRef="4575"/>
+          </array>
+          <string name="bounds">568 23 780 490 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 445 568 </string>
+    </object>
+    <reference idRef="4608"/>
+    <reference idRef="4657"/>
+    <reference idRef="4622"/>
+    <reference idRef="4628"/>
+    <reference idRef="4605"/>
+    <reference idRef="4629"/>
+    <reference idRef="4556"/>
+    <reference idRef="4596"/>
+    <reference idRef="4639"/>
+    <reference idRef="4630"/>
+    <reference idRef="4601"/>
+    <reference idRef="4603"/>
+    <reference idRef="4565"/>
+    <reference idRef="4564"/>
+    <reference idRef="4588"/>
+    <reference idRef="4567"/>
+    <reference idRef="4563"/>
+    <reference idRef="4585"/>
+    <object class="IBCarbonWindow" id="4540">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Distance Options</string>
+      <reference name="rootControl" idRef="4541"/>
+      <string name="windowRect">366 367 811 935 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="4569"/>
+    <reference idRef="4665"/>
+    <reference idRef="4576"/>
+    <reference idRef="4551"/>
+    <reference idRef="4641"/>
+    <reference idRef="4552"/>
+    <reference idRef="4626"/>
+    <reference idRef="4607"/>
+    <reference idRef="4587"/>
+    <reference idRef="4619"/>
+    <reference idRef="4574"/>
+  </array>
+  <array count="80" name="allParents">
+    <reference idRef="4550"/>
+    <reference idRef="4581"/>
+    <reference idRef="4541"/>
+    <reference idRef="4541"/>
+    <reference idRef="4585"/>
+    <reference idRef="4601"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4541"/>
+    <reference idRef="4541"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4657"/>
+    <reference idRef="4656"/>
+    <reference idRef="4547"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4557"/>
+    <reference idRef="4550"/>
+    <reference idRef="4547"/>
+    <reference idRef="4557"/>
+    <reference idRef="4541"/>
+    <reference idRef="4547"/>
+    <reference idRef="4557"/>
+    <reference idRef="4657"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4541"/>
+    <reference idRef="4581"/>
+    <reference idRef="4559"/>
+    <reference idRef="4657"/>
+    <reference idRef="4557"/>
+    <reference idRef="4656"/>
+    <reference idRef="4541"/>
+    <reference idRef="4557"/>
+    <reference idRef="4630"/>
+    <reference idRef="4557"/>
+    <reference idRef="4601"/>
+    <reference idRef="4656"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4559"/>
+    <reference idRef="4581"/>
+    <reference idRef="4547"/>
+    <reference idRef="4541"/>
+    <reference idRef="4541"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4553"/>
+    <reference idRef="4540"/>
+    <reference idRef="4656"/>
+    <reference idRef="4541"/>
+    <reference idRef="4657"/>
+    <reference idRef="4630"/>
+    <reference idRef="4656"/>
+    <reference idRef="4630"/>
+    <reference idRef="4541"/>
+    <reference idRef="4547"/>
+    <reference idRef="4656"/>
+    <reference idRef="4656"/>
+    <reference idRef="4544"/>
+    <reference idRef="4601"/>
+    <reference idRef="4558"/>
+    <reference idRef="4558"/>
+    <reference idRef="4585"/>
+    <reference idRef="4557"/>
+    <reference idRef="4558"/>
+    <reference idRef="4551"/>
+    <reference idRef="1"/>
+    <reference idRef="4557"/>
+    <reference idRef="4657"/>
+    <reference idRef="4657"/>
+    <reference idRef="4541"/>
+    <reference idRef="4656"/>
+    <reference idRef="4541"/>
+    <reference idRef="4656"/>
+    <reference idRef="4656"/>
+    <reference idRef="4585"/>
+    <reference idRef="4657"/>
+    <reference idRef="4557"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>DSet</string>
+    <reference idRef="4540"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">4667</unsigned_int>
+</object>

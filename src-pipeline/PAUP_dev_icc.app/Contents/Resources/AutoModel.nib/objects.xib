@@ -1,0 +1,279 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="25" name="allObjects">
+    <object class="IBCarbonCheckBox" id="25">
+      <int name="controlID">22</int>
+      <string name="title">equal rates</string>
+      <string name="viewFrame">44 125 99 18 </string>
+      <string name="bounds">125 44 143 143 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 562 341 </string>
+      <array count="23" name="subviews">
+        <object class="IBCarbonRoundButton" id="11">
+          <int name="controlID">31</int>
+          <string name="viewFrame">533 4 25 25 </string>
+          <string name="bounds">4 533 29 558 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonDBListView" id="3">
+          <int name="controlID">30</int>
+          <int name="fontStyle">-2</int>
+          <int name="columnWidth">100</int>
+          <array count="2" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">ID  </ostype>
+              <int name="propertyFlags">327680</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">38</int>
+              <int name="minWidth">38</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">#</string>
+            </object>
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">NAME</ostype>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">121</int>
+              <int name="minWidth">121</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Name</string>
+            </object>
+          </array>
+          <int name="hiliteStyle">1</int>
+          <int name="selectionFlags">8</int>
+          <boolean name="horzScrollBar">FALSE</boolean>
+          <string name="viewFrame">355 146 187 131 </string>
+          <string name="bounds">146 355 277 542 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="4">
+          <int name="controlID">28</int>
+          <string name="title">Evaluate trees:</string>
+          <string name="viewFrame">355 121 95 16 </string>
+          <string name="bounds">121 355 137 450 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="22">
+          <int name="controlID">15</int>
+          <string name="title">Model set (number of substitution schemes):</string>
+          <string name="viewFrame">20 75 285 16 </string>
+          <string name="bounds">75 20 91 305 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="23">
+          <int name="controlID">21</int>
+          <string name="title">Models for among-site rate variation:</string>
+          <string name="viewFrame">20 101 245 16 </string>
+          <string name="bounds">101 20 117 265 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="10">
+          <int name="controlID">9</int>
+          <string name="title">Apply settings for model chosen by:</string>
+          <string name="viewFrame">18 44 250 18 </string>
+          <string name="bounds">44 18 62 268 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="36">
+          <int name="controlID">26</int>
+          <string name="title">Show output for each model</string>
+          <string name="viewFrame">18 231 264 18 </string>
+          <string name="bounds">231 18 249 282 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="37">
+          <int name="controlID">27</int>
+          <string name="title">Show parameter estimates for each model</string>
+          <string name="viewFrame">18 255 294 18 </string>
+          <string name="bounds">255 18 273 312 </string>
+        </object>
+        <reference idRef="25"/>
+        <object class="IBCarbonCheckBox" id="26">
+          <int name="controlID">24</int>
+          <string name="title">gamma (&quot;+G&quot;)</string>
+          <string name="viewFrame">44 173 113 18 </string>
+          <string name="bounds">173 44 191 157 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="27">
+          <int name="controlID">23</int>
+          <string name="title">invar. sites (&quot;+I&quot;)</string>
+          <string name="viewFrame">44 149 156 18 </string>
+          <string name="bounds">149 44 167 200 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="28">
+          <int name="controlID">25</int>
+          <string name="title">both (&quot;+I+G&quot;)</string>
+          <string name="viewFrame">44 197 113 18 </string>
+          <string name="bounds">197 44 215 157 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="29">
+          <int name="controlID">4</int>
+          <string name="title">Criteria to evaluate:</string>
+          <string name="viewFrame">20 20 131 16 </string>
+          <string name="bounds">20 20 36 151 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="30">
+          <int name="controlID">5</int>
+          <string name="title">AIC</string>
+          <string name="viewFrame">154 19 51 18 </string>
+          <string name="bounds">19 154 37 205 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="31">
+          <int name="controlID">6</int>
+          <int name="initialState">1</int>
+          <string name="title">AICc</string>
+          <string name="viewFrame">205 19 55 18 </string>
+          <string name="bounds">19 205 37 260 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="32">
+          <int name="controlID">7</int>
+          <int name="initialState">1</int>
+          <string name="title">BIC</string>
+          <string name="viewFrame">262 19 47 18 </string>
+          <string name="bounds">19 262 37 309 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="33">
+          <int name="controlID">8</int>
+          <string name="title">DT</string>
+          <string name="viewFrame">317 19 46 18 </string>
+          <string name="bounds">19 317 37 363 </string>
+        </object>
+        <object class="IBCarbonButton" id="9">
+          <int name="controlID">29</int>
+          <string name="title">All</string>
+          <string name="viewFrame">302 198 45 20 </string>
+          <string name="bounds">198 302 218 347 </string>
+        </object>
+        <object class="IBCarbonButton" id="7">
+          <int name="controlID">3</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 301 90 20 </string>
+          <string name="bounds">301 20 321 110 </string>
+        </object>
+        <object class="IBCarbonButton" id="8">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">381 301 70 20 </string>
+          <string name="bounds">301 381 321 451 </string>
+        </object>
+        <object class="IBCarbonButton" id="12">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">472 301 70 20 </string>
+          <string name="bounds">301 472 321 542 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="5">
+          <int name="controlID">20</int>
+          <int name="numRows">1</int>
+          <int name="numCols">4</int>
+          <int name="selectedCol">3</int>
+          <int name="intercellHeight">-3</int>
+          <array count="1" name="radioTitles">
+            <array count="4">
+              <string>3</string>
+              <string>5</string>
+              <string>7</string>
+              <string>11</string>
+            </array>
+          </array>
+          <string name="viewFrame">313 75 165 18 </string>
+          <string name="bounds">75 313 93 478 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="35">
+          <int name="controlID">14</int>
+          <int name="numRows">1</int>
+          <int name="numCols">4</int>
+          <int name="selectedCol">2</int>
+          <int name="intercellHeight">0</int>
+          <array count="1" name="radioTitles">
+            <array count="4">
+              <string>AIC</string>
+              <string>AICc</string>
+              <string>BIC</string>
+              <string>DT</string>
+            </array>
+          </array>
+          <string name="viewFrame">277 44 251 18 </string>
+          <string name="bounds">44 277 62 528 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 341 562 </string>
+    </object>
+    <reference idRef="7"/>
+    <reference idRef="9"/>
+    <reference idRef="33"/>
+    <reference idRef="11"/>
+    <reference idRef="36"/>
+    <reference idRef="32"/>
+    <reference idRef="22"/>
+    <reference idRef="26"/>
+    <reference idRef="28"/>
+    <reference idRef="30"/>
+    <reference idRef="12"/>
+    <reference idRef="8"/>
+    <reference idRef="29"/>
+    <reference idRef="5"/>
+    <reference idRef="27"/>
+    <reference idRef="4"/>
+    <object class="IBCarbonWindow" id="16">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Auto-model selection</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">494 105 835 667 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="35"/>
+    <reference idRef="10"/>
+    <reference idRef="37"/>
+    <reference idRef="3"/>
+    <reference idRef="31"/>
+    <reference idRef="23"/>
+  </array>
+  <array count="25" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="16"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>AutoModel</string>
+    <reference idRef="16"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">40</unsigned_int>
+</object>

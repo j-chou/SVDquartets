@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonUserPane" id="3">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">4</int>
+      <int name="featureBits">2</int>
+      <array count="3" name="subviews">
+        <object class="IBCarbonPopupButton" id="4">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">1</int>
+          <object name="menu" class="IBCarbonMenu" id="7">
+            <string name="title">Popup</string>
+            <array count="3" name="items">
+              <object class="IBCarbonMenuItem" id="9">
+                <string name="title">Item 1</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="8">
+                <string name="title">Item 2</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="10">
+                <string name="title">Item 3</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+            </array>
+          </object>
+          <string name="title">Format: </string>
+          <int name="titleJustification">-2</int>
+          <string name="bounds">15 21 35 261 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="6">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">3</int>
+          <string name="bounds">14 503 39 528 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonButton" id="5">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">2</int>
+          <string name="title">Options…</string>
+          <string name="bounds">15 334 35 425 </string>
+        </object>
+      </array>
+      <string name="bounds">2 1 55 541 </string>
+    </object>
+    <reference idRef="7"/>
+    <reference idRef="9"/>
+    <reference idRef="8"/>
+    <object class="IBCarbonWindow" id="11">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">3</int>
+      <int name="windowPosition">1</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <array count="1" name="subviews">
+          <reference idRef="3"/>
+        </array>
+        <string name="bounds">0 0 55 541 </string>
+      </object>
+      <string name="windowRect">754 839 809 1380 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="4"/>
+    <reference idRef="6"/>
+    <reference idRef="5"/>
+    <reference idRef="2"/>
+    <reference idRef="10"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="4"/>
+    <reference idRef="7"/>
+    <reference idRef="7"/>
+    <reference idRef="1"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="11"/>
+    <reference idRef="7"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SaveDist</string>
+    <reference idRef="11"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">12</unsigned_int>
+</object>

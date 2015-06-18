@@ -1,0 +1,259 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="25" name="allObjects">
+    <object class="IBCarbonWindow" id="26">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Quartet Puzzling</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 501 376 </string>
+        <array count="22" name="subviews">
+          <object class="IBCarbonGroupBox" id="14">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">18</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Consensus of quartet results</string>
+            <string name="viewFrame">24 179 386 91 </string>
+            <string name="bounds">179 24 270 410 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="21">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">6</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Likelihood-specific options</string>
+            <string name="viewFrame">24 7 386 80 </string>
+            <string name="bounds">7 24 87 410 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="25">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">12</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Puzzling steps</string>
+            <string name="viewFrame">24 93 386 81 </string>
+            <array count="1" name="subviews">
+              <object class="IBCarbonCheckBox" id="19">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">11</int>
+                <string name="title">Save trees from each puzzling step to file</string>
+                <string name="viewFrame">14 52 324 18 </string>
+                <string name="bounds">145 38 163 362 </string>
+              </object>
+            </array>
+            <string name="bounds">93 24 174 410 </string>
+          </object>
+          <object class="IBCarbonButton" id="5">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">411 336 70 20 </string>
+            <string name="bounds">336 411 356 481 </string>
+          </object>
+          <object class="IBCarbonButton" id="15">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">329 336 70 20 </string>
+            <string name="bounds">336 329 356 399 </string>
+          </object>
+          <object class="IBCarbonButton" id="9">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">3</int>
+            <string name="title">Defaults…</string>
+            <string name="viewFrame">24 336 90 20 </string>
+            <string name="bounds">336 24 356 114 </string>
+          </object>
+          <object class="IBCarbonButton" id="3">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">4</int>
+            <string name="title">Likelihood Settings…</string>
+            <string name="viewFrame">35 31 160 20 </string>
+            <string name="bounds">31 35 51 195 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="10">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">5</int>
+            <string name="title">Use approximate rather than &quot;exact&quot; likelihoods</string>
+            <string name="viewFrame">35 58 329 18 </string>
+            <string name="bounds">58 35 76 364 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="18">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">7</int>
+            <string name="title">Number:</string>
+            <string name="viewFrame">42 122 62 16 </string>
+            <string name="bounds">122 42 138 104 </string>
+          </object>
+          <object class="IBCarbonEditText" id="17">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">8</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">111 122 48 16 </string>
+            <string name="bounds">122 111 138 159 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="13">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">9</int>
+            <string name="title">Seed:</string>
+            <string name="viewFrame">185 122 39 16 </string>
+            <string name="bounds">122 185 138 224 </string>
+          </object>
+          <object class="IBCarbonEditText" id="22">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">10</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">231 122 82 16 </string>
+            <string name="bounds">122 231 138 313 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="4">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">13</int>
+            <string name="title">Show tree</string>
+            <string name="viewFrame">40 200 99 18 </string>
+            <string name="bounds">200 40 218 139 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="23">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">14</int>
+            <string name="title">Show all observed bipartitions and frequencies</string>
+            <string name="viewFrame">40 219 341 18 </string>
+            <string name="bounds">219 40 237 381 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="6">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">15</int>
+            <string name="title">Don&apos;t show groups with frequencies ≤</string>
+            <string name="viewFrame">61 243 250 16 </string>
+            <string name="bounds">243 61 259 311 </string>
+          </object>
+          <object class="IBCarbonEditText" id="11">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">16</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">313 243 24 16 </string>
+            <string name="bounds">243 313 259 337 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="7">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">17</int>
+            <string name="title">%</string>
+            <string name="viewFrame">350 243 16 16 </string>
+            <string name="bounds">243 350 259 366 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="16">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">19</int>
+            <string name="title">Output search progress to display buffer and/or log file</string>
+            <string name="viewFrame">35 279 392 18 </string>
+            <string name="bounds">279 35 297 427 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="12">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">20</int>
+            <string name="title">every</string>
+            <string name="viewFrame">56 302 42 16 </string>
+            <string name="bounds">302 56 318 98 </string>
+          </object>
+          <object class="IBCarbonEditText" id="20">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">21</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">102 302 35 16 </string>
+            <string name="bounds">302 102 318 137 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="8">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">22</int>
+            <string name="title">seconds</string>
+            <string name="viewFrame">150 302 59 16 </string>
+            <string name="bounds">302 150 318 209 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="24">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">23</int>
+            <string name="viewFrame">470 5 25 25 </string>
+            <string name="bounds">5 470 30 495 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+        </array>
+        <string name="bounds">0 0 376 501 </string>
+      </object>
+      <string name="windowRect">194 504 570 1005 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="9"/>
+    <reference idRef="23"/>
+    <reference idRef="5"/>
+    <reference idRef="12"/>
+    <reference idRef="4"/>
+    <reference idRef="22"/>
+    <reference idRef="16"/>
+    <reference idRef="18"/>
+    <reference idRef="14"/>
+    <reference idRef="15"/>
+    <reference idRef="20"/>
+    <reference idRef="3"/>
+    <reference idRef="25"/>
+    <reference idRef="19"/>
+    <reference idRef="24"/>
+    <reference idRef="8"/>
+    <reference idRef="2"/>
+    <reference idRef="13"/>
+    <reference idRef="21"/>
+    <reference idRef="10"/>
+    <reference idRef="6"/>
+    <reference idRef="17"/>
+    <reference idRef="11"/>
+    <reference idRef="7"/>
+  </array>
+  <array count="25" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="25"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="26"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Puzzling</string>
+    <reference idRef="26"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">27</unsigned_int>
+</object>

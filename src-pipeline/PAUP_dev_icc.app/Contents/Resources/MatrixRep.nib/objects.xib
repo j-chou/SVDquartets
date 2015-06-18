@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonWindow" id="10">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">13</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <array count="1" name="subviews">
+          <object class="IBCarbonUserPane" id="3">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">7</int>
+            <int name="featureBits">2</int>
+            <array count="6" name="subviews">
+              <object class="IBCarbonStaticText" id="4">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">1</int>
+                <string name="title">Save:</string>
+                <string name="bounds">7 22 23 59 </string>
+              </object>
+              <object class="IBCarbonRadioButton" id="7">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">3</int>
+                <string name="title">First tree only</string>
+                <string name="bounds">6 147 24 255 </string>
+              </object>
+              <object class="IBCarbonRadioButton" id="5">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">2</int>
+                <string name="title">All trees</string>
+                <string name="bounds">6 65 24 140 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="8">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">4</int>
+                <string name="title">Store bootstrap support values as weight-sets</string>
+                <string name="bounds">28 20 46 344 </string>
+              </object>
+              <object class="IBCarbonCheckBox" id="9">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">5</int>
+                <string name="title">Store user-input branch lengths as weight-sets</string>
+                <string name="bounds">51 20 69 353 </string>
+              </object>
+              <object class="IBCarbonRoundButton" id="6">
+                <ostype name="controlSignature">DLS </ostype>
+                <int name="controlID">6</int>
+                <ostype name="command">HELP</ostype>
+                <string name="bounds">13 374 38 399 </string>
+                <int name="contentType">132</int>
+                <int name="iconCreator">1835098995</int>
+                <int name="iconType">1751477360</int>
+              </object>
+            </array>
+            <string name="bounds">0 0 72 421 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 72 421 </string>
+      </object>
+      <string name="windowRect">344 98 416 519 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="2"/>
+    <reference idRef="8"/>
+    <reference idRef="6"/>
+    <reference idRef="4"/>
+    <reference idRef="3"/>
+    <reference idRef="7"/>
+    <reference idRef="5"/>
+    <reference idRef="9"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="10"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="2"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+    <reference idRef="3"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>MatrixRep</string>
+    <reference idRef="10"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">11</unsigned_int>
+</object>

@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 352 170 </string>
+      <array count="5" name="subviews">
+        <object class="IBCarbonButton" id="3">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">242 130 90 20 </string>
+          <string name="bounds">130 242 150 332 </string>
+        </object>
+        <object class="IBCarbonButton" id="4">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">140 130 90 20 </string>
+          <string name="bounds">130 140 150 230 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="5">
+          <int name="controlID">3</int>
+          <string name="title">Specify mode used to determine initial seeds for random-number generation:</string>
+          <string name="viewFrame">13 25 284 32 </string>
+          <string name="bounds">25 13 57 297 </string>
+        </object>
+        <object class="IBCarbonRoundButton" id="7">
+          <int name="controlID">7</int>
+          <ostype name="command">HELP</ostype>
+          <string name="viewFrame">321 7 25 25 </string>
+          <string name="bounds">7 321 32 346 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonRadioGroup" id="6">
+          <int name="controlID">6</int>
+          <int name="intercellHeight">4</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Obtain from system clock</string>
+            </array>
+            <array count="1">
+              <string>Set to &quot;1&quot;</string>
+            </array>
+          </array>
+          <string name="viewFrame">34 65 210 42 </string>
+          <string name="bounds">65 34 107 244 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 170 352 </string>
+    </object>
+    <reference idRef="4"/>
+    <reference idRef="6"/>
+    <reference idRef="7"/>
+    <object class="IBCarbonWindow" id="8">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Initial Seeds</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">500 127 670 479 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="3"/>
+    <reference idRef="5"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="8"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>InitSeeds</string>
+    <reference idRef="8"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">9</unsigned_int>
+</object>

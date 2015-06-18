@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="16">
+      <int name="controlID">19</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Convert to spaces (= NEXUS standard)</string>
+        </array>
+        <array count="1">
+          <string>Keep underscores</string>
+        </array>
+      </array>
+      <string name="viewFrame">33 325 343 44 </string>
+      <string name="bounds">325 33 369 376 </string>
+    </object>
+    <object class="IBCarbonButton" id="7">
+      <int name="controlID">3</int>
+      <string name="title">Defaults…</string>
+      <string name="viewFrame">20 395 90 20 </string>
+      <string name="bounds">395 20 415 110 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="5">
+      <int name="controlID">6</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>Don&apos;t allow unless contained within single quotes</string>
+        </array>
+        <array count="1">
+          <string>Allow (violation of NEXUS standard)</string>
+        </array>
+      </array>
+      <string name="viewFrame">33 41 349 41 </string>
+      <string name="bounds">41 33 82 382 </string>
+    </object>
+    <object class="IBCarbonGroupBox" id="3">
+      <int name="controlID">16</int>
+      <int name="fontStyle">5</int>
+      <string name="title">When exporting data, use</string>
+      <string name="viewFrame">20 210 409 74 </string>
+      <string name="bounds">210 20 284 429 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="10">
+      <int name="controlID">15</int>
+      <array count="2" name="radioTitles">
+        <array count="1">
+          <string>DATA block</string>
+        </array>
+        <array count="1">
+          <string>TAXA and CHARACTERS blocks</string>
+        </array>
+      </array>
+      <string name="viewFrame">33 235 240 44 </string>
+      <string name="bounds">235 33 279 273 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="11">
+      <int name="controlID">11</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Don&apos;t allow (= NEXUS standard)</string>
+        </array>
+        <array count="1">
+          <string>Allow but issue warning</string>
+        </array>
+        <array count="1">
+          <string>Allow, do not issue warning</string>
+        </array>
+      </array>
+      <string name="viewFrame">33 130 240 63 </string>
+      <string name="bounds">130 33 193 273 </string>
+    </object>
+    <object class="IBCarbonWindow" id="13">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">NEXUS Format</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 462 435 </string>
+        <array count="12" name="subviews">
+          <reference idRef="3"/>
+          <object class="IBCarbonGroupBox" id="8">
+            <int name="controlID">12</int>
+            <int name="fontStyle">5</int>
+            <string name="title">All-digit taxon and character labels</string>
+            <string name="viewFrame">20 102 409 96 </string>
+            <string name="bounds">102 20 198 429 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="4">
+            <int name="controlID">7</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Special punctuation characters in taxon and character names</string>
+            <string name="viewFrame">20 17 409 74 </string>
+            <string name="bounds">17 20 91 429 </string>
+          </object>
+          <object class="IBCarbonButton" id="9">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">352 395 90 20 </string>
+            <string name="bounds">395 352 415 442 </string>
+          </object>
+          <object class="IBCarbonButton" id="12">
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">250 395 90 20 </string>
+            <string name="bounds">395 250 415 340 </string>
+          </object>
+          <reference idRef="7"/>
+          <object class="IBCarbonRoundButton" id="6">
+            <int name="controlID">21</int>
+            <ostype name="command">HELP</ostype>
+            <string name="viewFrame">434 7 25 25 </string>
+            <string name="bounds">7 434 32 459 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <reference idRef="11"/>
+          <reference idRef="10"/>
+          <object class="IBCarbonGroupBox" id="15">
+            <int name="controlID">20</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Underscores in taxon names, charset tags, etc.</string>
+            <string name="viewFrame">20 300 409 74 </string>
+            <string name="bounds">300 20 374 429 </string>
+          </object>
+          <reference idRef="16"/>
+          <reference idRef="5"/>
+        </array>
+        <string name="bounds">0 0 435 462 </string>
+      </object>
+      <string name="windowRect">254 163 689 625 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="4"/>
+    <reference idRef="15"/>
+    <reference idRef="9"/>
+    <reference idRef="6"/>
+    <reference idRef="8"/>
+    <reference idRef="12"/>
+    <reference idRef="2"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="13"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>NexusOptions</string>
+    <reference idRef="13"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">17</unsigned_int>
+</object>

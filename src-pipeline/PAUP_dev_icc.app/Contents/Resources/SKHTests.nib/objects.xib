@@ -1,0 +1,203 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonWindow" id="20">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Likelihood-Based Topology Tests</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 439 302 </string>
+        <array count="13" name="subviews">
+          <object class="IBCarbonButton" id="5">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">329 262 90 20 </string>
+            <string name="bounds">262 329 282 419 </string>
+          </object>
+          <object class="IBCarbonButton" id="12">
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">227 262 90 20 </string>
+            <string name="bounds">262 227 282 317 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="7">
+            <int name="controlID">4</int>
+            <string name="title">Kishino-Hasegawa test</string>
+            <string name="viewFrame">18 11 181 18 </string>
+            <string name="bounds">11 18 29 199 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="4">
+            <int name="controlID">17</int>
+            <string name="title">Number of bootstrap replicates:</string>
+            <string name="viewFrame">20 200 204 16 </string>
+            <string name="bounds">200 20 216 224 </string>
+          </object>
+          <object class="IBCarbonEditText" id="11">
+            <int name="controlID">18</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="title">10000000</string>
+            <string name="viewFrame">230 201 82 16 </string>
+            <string name="bounds">201 230 217 312 </string>
+          </object>
+          <object class="IBCarbonRoundButton" id="14">
+            <int name="controlID">21</int>
+            <ostype name="command">HELP</ostype>
+            <string name="viewFrame">409 8 25 25 </string>
+            <string name="bounds">8 409 33 434 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <object class="IBCarbonButton" id="13">
+            <int name="controlID">3</int>
+            <ostype name="command">not!</ostype>
+            <string name="title">Defaults…</string>
+            <string name="viewFrame">20 262 94 20 </string>
+            <string name="bounds">262 20 282 114 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="9">
+            <int name="controlID">13</int>
+            <string name="viewFrame">35 33 342 73 </string>
+            <array count="4" name="subviews">
+              <object class="IBCarbonRadioGroup" id="16">
+                <int name="controlID">8</int>
+                <array count="2" name="radioTitles">
+                  <array count="1">
+                    <string>Normal approximation</string>
+                  </array>
+                  <array count="1">
+                    <string>Bootstrap</string>
+                  </array>
+                </array>
+                <string name="viewFrame">26 24 170 42 </string>
+                <string name="bounds">57 61 99 231 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="18">
+                <int name="controlID">12</int>
+                <array count="2" name="radioTitles">
+                  <array count="1">
+                    <string>One-tailed</string>
+                  </array>
+                  <array count="1">
+                    <string>Two-tailed</string>
+                  </array>
+                </array>
+                <string name="viewFrame">225 24 101 40 </string>
+                <string name="bounds">57 260 97 361 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="17">
+                <int name="controlID">5</int>
+                <string name="title">Null distribution:</string>
+                <string name="viewFrame">16 6 114 16 </string>
+                <string name="bounds">39 51 55 165 </string>
+              </object>
+              <object class="IBCarbonStaticText" id="19">
+                <int name="controlID">9</int>
+                <string name="title">P values:</string>
+                <string name="viewFrame">216 6 61 16 </string>
+                <string name="bounds">39 251 55 312 </string>
+              </object>
+            </array>
+            <string name="bounds">33 35 106 377 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="8">
+            <int name="controlID">16</int>
+            <string name="title">Use Resampling of Estimated Log Likelihoods (RELL)</string>
+            <string name="viewFrame">18 172 348 18 </string>
+            <string name="bounds">172 18 190 366 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="3">
+            <int name="controlID">14</int>
+            <string name="title">Shimodaira-Hasegawa test</string>
+            <string name="viewFrame">18 111 189 18 </string>
+            <string name="bounds">111 18 129 207 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="15">
+            <int name="controlID">15</int>
+            <string name="title">Shimodaira Approximately Unbiased (AU) test</string>
+            <string name="viewFrame">18 135 318 18 </string>
+            <string name="bounds">135 18 153 336 </string>
+          </object>
+          <object class="IBCarbonEditText" id="10">
+            <int name="controlID">20</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">230 227 82 16 </string>
+            <string name="bounds">227 230 243 312 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="6">
+            <int name="controlID">19</int>
+            <string name="title">Seed:</string>
+            <string name="viewFrame">188 227 35 16 </string>
+            <string name="bounds">227 188 243 223 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 302 439 </string>
+      </object>
+      <string name="windowRect">-73 483 229 922 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="4"/>
+    <reference idRef="3"/>
+    <reference idRef="7"/>
+    <reference idRef="9"/>
+    <reference idRef="18"/>
+    <reference idRef="6"/>
+    <reference idRef="5"/>
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+    <reference idRef="8"/>
+    <reference idRef="15"/>
+    <reference idRef="19"/>
+    <reference idRef="13"/>
+    <reference idRef="17"/>
+    <reference idRef="12"/>
+    <reference idRef="16"/>
+    <reference idRef="11"/>
+    <reference idRef="14"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="20"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SKHTests</string>
+    <reference idRef="20"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">21</unsigned_int>
+</object>

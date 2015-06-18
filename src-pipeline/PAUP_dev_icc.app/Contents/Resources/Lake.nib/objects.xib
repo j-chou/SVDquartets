@@ -1,0 +1,418 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="32" name="allObjects">
+    <object class="IBCarbonCheckBox" id="17">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">9</int>
+      <string name="title">Output spectral components</string>
+      <string name="viewFrame">292 35 210 18 </string>
+      <string name="bounds">35 292 53 502 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="23">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">28</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="numRows">4</int>
+      <array count="4" name="radioTitles">
+        <array count="1">
+          <string>Group A</string>
+        </array>
+        <array count="1">
+          <string>Group B</string>
+        </array>
+        <array count="1">
+          <string>Group C</string>
+        </array>
+        <array count="1">
+          <string>Group D</string>
+        </array>
+      </array>
+      <string name="viewFrame">526 165 93 82 </string>
+      <string name="bounds">165 526 247 619 </string>
+    </object>
+    <object class="IBCarbonButton" id="19">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">19</int>
+      <string name="title">&lt;&lt; Don&apos;t &lt;&lt;</string>
+      <string name="viewFrame">206 266 112 20 </string>
+      <string name="bounds">266 206 286 318 </string>
+    </object>
+    <object class="IBCarbonMenu" id="29">
+      <string name="title">BevelMenu</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="32">
+          <string name="title">Item1</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="30">
+          <string name="title">Item2</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="31">
+          <string name="title">Item3</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+      </array>
+    </object>
+    <object class="IBCarbonMenuItem" id="36">
+      <string name="title">Item2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCheckBox" id="6">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">10</int>
+      <string name="title">Compute branch lengths</string>
+      <string name="viewFrame">292 54 181 18 </string>
+      <string name="bounds">54 292 72 473 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="35">
+      <string name="title">Item3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonWindow" id="37">
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Lake&apos;s Phylogenetic Invariants</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 628 443 </string>
+        <array count="22" name="subviews">
+          <object class="IBCarbonGroupBox" id="15">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">8</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Options</string>
+            <string name="viewFrame">281 11 260 116 </string>
+            <string name="bounds">11 281 127 541 </string>
+          </object>
+          <reference idRef="17"/>
+          <reference idRef="6"/>
+          <object class="IBCarbonCheckBox" id="18">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">11</int>
+            <string name="title">Summary tables only</string>
+            <string name="viewFrame">292 73 159 18 </string>
+            <string name="bounds">73 292 91 451 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="14">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">12</int>
+            <string name="title">Use exact binomial test for n ≤</string>
+            <string name="viewFrame">292 96 204 16 </string>
+            <string name="bounds">96 292 112 496 </string>
+          </object>
+          <object class="IBCarbonEditText" id="24">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">13</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="title">30</string>
+            <string name="viewFrame">498 97 23 16 </string>
+            <string name="bounds">97 498 113 521 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="3">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">14</int>
+            <string name="title">Available taxa:</string>
+            <string name="viewFrame">22 140 195 16 </string>
+            <string name="bounds">140 22 156 217 </string>
+          </object>
+          <object class="IBCarbonButton" id="13">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">18</int>
+            <string name="title">&gt;&gt; Use &gt;&gt;</string>
+            <string name="viewFrame">206 218 112 20 </string>
+            <string name="bounds">218 206 238 318 </string>
+          </object>
+          <reference idRef="19"/>
+          <object class="IBCarbonGroupBox" id="5">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">3</int>
+            <int name="fontStyle">5</int>
+            <string name="title">Mode of analysis</string>
+            <string name="viewFrame">23 11 217 116 </string>
+            <string name="bounds">11 23 127 240 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="8">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">7</int>
+            <int name="numRows">3</int>
+            <int name="intercellHeight">6</int>
+            <array count="3" name="radioTitles">
+              <array count="1">
+                <string>Choose 4 taxa</string>
+              </array>
+              <array count="1">
+                <string>All possible quartets</string>
+              </array>
+              <array count="1">
+                <string>Partition taxa into 4 groups</string>
+              </array>
+            </array>
+            <string name="viewFrame">32 40 200 71 </string>
+            <string name="bounds">40 32 111 232 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="21">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">15</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">0</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">20 161 180 184 </string>
+            <string name="bounds">161 20 345 200 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="22">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">21</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">0</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">328 161 180 184 </string>
+            <string name="bounds">161 328 345 508 </string>
+          </object>
+          <reference idRef="23"/>
+          <object class="IBCarbonRoundButton" id="7">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">29</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="viewFrame">596 7 25 25 </string>
+            <string name="bounds">7 596 32 621 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <object class="IBCarbonStaticText" id="9">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">20</int>
+            <string name="title">Use:</string>
+            <string name="viewFrame">328 140 195 16 </string>
+            <string name="bounds">140 328 156 523 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="16">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">17</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">8192</int>
+            <object name="menu" class="IBCarbonMenu" id="33">
+              <string name="title">BevelMenu</string>
+              <array count="3" name="items">
+                <object class="IBCarbonMenuItem" id="34">
+                  <string name="title">Item1</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <reference idRef="36"/>
+                <reference idRef="35"/>
+              </array>
+            </object>
+            <string name="title">TaxSets</string>
+            <string name="viewFrame">106 352 90 20 </string>
+            <string name="bounds">352 106 372 196 </string>
+          </object>
+          <object class="IBCarbonBevelButton" id="20">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">23</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <int name="contentType">0</int>
+            <int name="menuBehavior">8192</int>
+            <reference name="menu" idRef="29"/>
+            <string name="title">TaxSets</string>
+            <string name="viewFrame">415 352 90 20 </string>
+            <string name="bounds">352 415 372 505 </string>
+          </object>
+          <object class="IBCarbonButton" id="12">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">16</int>
+            <int name="controlSize">1</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <string name="title">All</string>
+            <string name="viewFrame">24 352 50 20 </string>
+            <string name="bounds">352 24 372 74 </string>
+          </object>
+          <object class="IBCarbonButton" id="10">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">22</int>
+            <int name="controlSize">1</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <string name="title">All</string>
+            <string name="viewFrame">331 352 50 20 </string>
+            <string name="bounds">352 331 372 381 </string>
+          </object>
+          <object class="IBCarbonButton" id="11">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">538 403 70 20 </string>
+            <string name="bounds">403 538 423 608 </string>
+          </object>
+          <object class="IBCarbonButton" id="4">
+            <ostype name="controlSignature">DLS </ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">456 403 70 20 </string>
+            <string name="bounds">403 456 423 526 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 443 628 </string>
+      </object>
+      <string name="windowRect">344 136 787 764 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="2"/>
+    <reference idRef="15"/>
+    <reference idRef="32"/>
+    <reference idRef="10"/>
+    <reference idRef="30"/>
+    <reference idRef="33"/>
+    <reference idRef="24"/>
+    <reference idRef="8"/>
+    <reference idRef="5"/>
+    <reference idRef="34"/>
+    <reference idRef="4"/>
+    <reference idRef="9"/>
+    <reference idRef="18"/>
+    <reference idRef="31"/>
+    <reference idRef="12"/>
+    <reference idRef="7"/>
+    <reference idRef="14"/>
+    <reference idRef="22"/>
+    <reference idRef="3"/>
+    <reference idRef="13"/>
+    <reference idRef="16"/>
+    <reference idRef="11"/>
+    <reference idRef="20"/>
+    <reference idRef="21"/>
+  </array>
+  <array count="32" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="20"/>
+    <reference idRef="33"/>
+    <reference idRef="2"/>
+    <reference idRef="33"/>
+    <reference idRef="1"/>
+    <reference idRef="37"/>
+    <reference idRef="2"/>
+    <reference idRef="29"/>
+    <reference idRef="2"/>
+    <reference idRef="29"/>
+    <reference idRef="16"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="33"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="29"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Lake</string>
+    <reference idRef="37"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">38</unsigned_int>
+</object>

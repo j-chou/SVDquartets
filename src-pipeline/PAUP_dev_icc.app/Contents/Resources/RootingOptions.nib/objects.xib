@@ -1,0 +1,269 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="25" name="allObjects">
+    <object class="IBCarbonPopupButton" id="5">
+      <int name="controlID">22</int>
+      <object name="menu" class="IBCarbonMenu" id="24">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="25">
+            <string name="title">test</string>
+            <boolean name="disabled">TRUE</boolean>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">AncStates = </string>
+      <int name="titleJustification">1</int>
+      <string name="viewFrame">119 296 217 20 </string>
+      <string name="bounds">296 119 316 336 </string>
+    </object>
+    <reference idRef="24"/>
+    <object class="IBCarbonGroupBox" id="10">
+      <int name="controlID">21</int>
+      <string name="viewFrame">45 55 486 230 </string>
+      <array count="3" name="subviews">
+        <object class="IBCarbonButton" id="16">
+          <int name="controlID">20</int>
+          <ostype name="command">DEFO</ostype>
+          <string name="title">Define Outgroup…</string>
+          <string name="viewFrame">308 176 162 20 </string>
+          <string name="bounds">231 353 251 515 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="17">
+          <int name="controlID">16</int>
+          <int name="fontStyle">5</int>
+          <string name="title">If more than one outgroup taxon present…</string>
+          <boolean name="primary">FALSE</boolean>
+          <string name="viewFrame">16 8 454 133 </string>
+          <array count="4" name="subviews">
+            <object class="IBCarbonIcon" id="19">
+              <int name="controlID">11</int>
+              <int name="contentType">4</int>
+              <int name="contentResID">262</int>
+              <int name="creator">0</int>
+              <string name="viewFrame">16 94 32 32 </string>
+              <string name="bounds">157 77 189 109 </string>
+            </object>
+            <object class="IBCarbonIcon" id="20">
+              <int name="controlID">9</int>
+              <int name="contentType">4</int>
+              <int name="contentResID">260</int>
+              <int name="creator">0</int>
+              <string name="viewFrame">16 22 32 32 </string>
+              <string name="bounds">85 77 117 109 </string>
+            </object>
+            <object class="IBCarbonIcon" id="21">
+              <int name="controlID">10</int>
+              <int name="contentType">4</int>
+              <int name="contentResID">261</int>
+              <int name="creator">0</int>
+              <string name="viewFrame">16 58 32 32 </string>
+              <string name="bounds">121 77 153 109 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="18">
+              <int name="controlID">15</int>
+              <int name="numRows">3</int>
+              <int name="intercellHeight">18</int>
+              <array count="3" name="radioTitles">
+                <array count="1">
+                  <string>Root tree at internal node with basal polytomy</string>
+                </array>
+                <array count="1">
+                  <string>Make outgroup paraphyletic with respect to ingroup</string>
+                </array>
+                <array count="1">
+                  <string>Make outgroup a monophyletic sister group to ingroup</string>
+                </array>
+              </array>
+              <string name="viewFrame">60 30 392 96 </string>
+              <string name="bounds">93 121 189 513 </string>
+            </object>
+          </array>
+          <string name="bounds">63 61 196 515 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="15">
+          <ostype name="controlSignature">DLS </ostype>
+          <int name="controlID">19</int>
+          <int name="fontStyle">5</int>
+          <string name="title">Otherwise…</string>
+          <string name="viewFrame">16 145 272 67 </string>
+          <array count="2" name="subviews">
+            <object class="IBCarbonCheckBox" id="22">
+              <int name="controlID">18</int>
+              <string name="title">Root tree at internal node with basal polytomy anyway</string>
+              <string name="viewFrame">60 25 210 32 </string>
+              <string name="bounds">225 121 257 331 </string>
+            </object>
+            <object class="IBCarbonIcon" id="23">
+              <int name="controlID">17</int>
+              <int name="contentType">4</int>
+              <int name="contentResID">263</int>
+              <int name="creator">0</int>
+              <string name="viewFrame">16 25 32 32 </string>
+              <string name="bounds">225 77 257 109 </string>
+            </object>
+          </array>
+          <string name="bounds">200 61 267 333 </string>
+        </object>
+      </array>
+      <string name="bounds">55 45 285 531 </string>
+    </object>
+    <reference idRef="22"/>
+    <object class="IBCarbonRootControl" id="2">
+      <string name="viewFrame">0 0 563 418 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonRoundButton" id="8">
+          <int name="controlID">24</int>
+          <ostype name="command">HELP</ostype>
+          <string name="viewFrame">533 4 25 25 </string>
+          <string name="bounds">4 533 29 558 </string>
+          <int name="contentType">132</int>
+          <int name="iconCreator">1835098995</int>
+          <int name="iconType">1751477360</int>
+        </object>
+        <object class="IBCarbonStaticText" id="7">
+          <int name="controlID">4</int>
+          <string name="title">Choose method for rooting unrooted trees:</string>
+          <int name="justification">-2</int>
+          <string name="viewFrame">28 8 356 16 </string>
+          <string name="bounds">8 28 24 384 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="3">
+          <int name="controlID">5</int>
+          <boolean name="autoToggle">FALSE</boolean>
+          <string name="title">Outgroup</string>
+          <string name="viewFrame">28 32 83 18 </string>
+          <string name="bounds">32 28 50 111 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="4">
+          <int name="controlID">6</int>
+          <boolean name="autoToggle">FALSE</boolean>
+          <string name="title">Lundberg:</string>
+          <string name="viewFrame">28 296 91 18 </string>
+          <string name="bounds">296 28 314 119 </string>
+        </object>
+        <object class="IBCarbonRadioButton" id="13">
+          <int name="controlID">7</int>
+          <boolean name="autoToggle">FALSE</boolean>
+          <string name="title">Midpoint</string>
+          <string name="viewFrame">28 319 83 18 </string>
+          <string name="bounds">319 28 337 111 </string>
+        </object>
+        <reference idRef="5"/>
+        <object class="IBCarbonCheckBox" id="14">
+          <int name="controlID">23</int>
+          <string name="title">Use user-supplied branch lengths</string>
+          <string name="viewFrame">67 339 258 18 </string>
+          <string name="bounds">339 67 357 325 </string>
+        </object>
+        <object class="IBCarbonButton" id="9">
+          <int name="controlID">3</int>
+          <ostype name="command">CDFT</ostype>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">20 378 90 20 </string>
+          <string name="bounds">378 20 398 110 </string>
+        </object>
+        <object class="IBCarbonButton" id="6">
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">391 378 70 20 </string>
+          <string name="bounds">378 391 398 461 </string>
+        </object>
+        <object class="IBCarbonButton" id="12">
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">473 378 70 20 </string>
+          <string name="bounds">378 473 398 543 </string>
+        </object>
+        <object class="IBCarbonCustom" id="11">
+          <int name="controlID">8</int>
+          <ostype name="command">MAIN</ostype>
+          <int name="CDEFResID">26</int>
+          <unsigned_int name="controlDefType">0</unsigned_int>
+          <string name="viewFrame">20 32 31 318 </string>
+          <string name="bounds">32 20 350 51 </string>
+        </object>
+        <reference idRef="10"/>
+      </array>
+      <string name="bounds">0 0 418 563 </string>
+    </object>
+    <reference idRef="21"/>
+    <reference idRef="18"/>
+    <reference idRef="23"/>
+    <reference idRef="25"/>
+    <reference idRef="15"/>
+    <reference idRef="3"/>
+    <reference idRef="20"/>
+    <object class="IBCarbonWindow" id="26">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Rooting Options</string>
+      <reference name="rootControl" idRef="2"/>
+      <string name="windowRect">185 316 603 879 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="13"/>
+    <reference idRef="6"/>
+    <reference idRef="9"/>
+    <reference idRef="7"/>
+    <reference idRef="8"/>
+    <reference idRef="12"/>
+    <reference idRef="19"/>
+    <reference idRef="14"/>
+    <reference idRef="11"/>
+    <reference idRef="17"/>
+    <reference idRef="16"/>
+    <reference idRef="4"/>
+  </array>
+  <array count="25" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="5"/>
+    <reference idRef="2"/>
+    <reference idRef="15"/>
+    <reference idRef="26"/>
+    <reference idRef="17"/>
+    <reference idRef="17"/>
+    <reference idRef="15"/>
+    <reference idRef="24"/>
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+    <reference idRef="17"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="17"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="10"/>
+    <reference idRef="10"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RootingOptions</string>
+    <reference idRef="26"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">30</unsigned_int>
+</object>

@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonCheckBox" id="13">
+      <int name="controlID">13</int>
+      <string name="title">Output to treefile</string>
+      <string name="viewFrame">306 227 134 18 </string>
+      <string name="bounds">227 306 245 440 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="5">
+      <int name="controlID">8</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Show &quot;set&quot; representation of all agreement sets</string>
+        </array>
+        <array count="1">
+          <string>Show tree diagram for each agreement set</string>
+        </array>
+        <array count="1">
+          <string>Show both of the above</string>
+        </array>
+      </array>
+      <string name="viewFrame">61 40 338 62 </string>
+      <string name="bounds">40 61 102 399 </string>
+    </object>
+    <object class="IBCarbonButton" id="8">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">296 356 70 20 </string>
+      <string name="bounds">356 296 376 366 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="10">
+      <int name="controlID">12</int>
+      <string name="title">Show (first) agreement subtree</string>
+      <string name="viewFrame">47 117 214 18 </string>
+      <string name="bounds">117 47 135 261 </string>
+    </object>
+    <object class="IBCarbonWindow" id="16">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">Agreement Subtrees</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 468 396 </string>
+        <array count="11" name="subviews">
+          <object class="IBCarbonRoundButton" id="11">
+            <int name="controlID">14</int>
+            <string name="viewFrame">436 4 25 25 </string>
+            <string name="bounds">4 436 29 461 </string>
+            <int name="contentType">132</int>
+            <int name="iconCreator">1835098995</int>
+            <int name="iconType">1751477360</int>
+          </object>
+          <object class="IBCarbonGroupBox" id="6">
+            <int name="controlID">4</int>
+            <string name="title">Find all optimal agreement sets</string>
+            <int name="titleType">1</int>
+            <string name="viewFrame">35 12 381 97 </string>
+            <string name="bounds">12 35 109 416 </string>
+          </object>
+          <object class="IBCarbonDBListView" id="3">
+            <int name="controlID">11</int>
+            <int name="fontStyle">-2</int>
+            <int name="columnWidth">100</int>
+            <array count="2" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">ID  </ostype>
+                <int name="propertyFlags">327680</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">38</int>
+                <int name="minWidth">38</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">#</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">NAME</ostype>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">121</int>
+                <int name="minWidth">121</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">8</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <string name="viewFrame">124 148 162 203 </string>
+            <string name="bounds">148 124 351 286 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="4">
+            <int name="controlID">9</int>
+            <string name="title">Input trees:</string>
+            <string name="viewFrame">35 150 85 16 </string>
+            <string name="bounds">150 35 166 120 </string>
+          </object>
+          <reference idRef="10"/>
+          <object class="IBCarbonButton" id="9">
+            <int name="controlID">10</int>
+            <string name="title">All</string>
+            <string name="viewFrame">47 226 45 20 </string>
+            <string name="bounds">226 47 246 92 </string>
+          </object>
+          <reference idRef="13"/>
+          <object class="IBCarbonButton" id="7">
+            <int name="controlID">3</int>
+            <string name="title">Defaults…</string>
+            <string name="viewFrame">21 356 90 20 </string>
+            <string name="bounds">356 21 376 111 </string>
+          </object>
+          <reference idRef="8"/>
+          <object class="IBCarbonButton" id="12">
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">378 356 70 20 </string>
+            <string name="bounds">356 378 376 448 </string>
+          </object>
+          <reference idRef="5"/>
+        </array>
+        <string name="bounds">0 0 396 468 </string>
+      </object>
+      <string name="windowRect">494 105 890 573 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="6"/>
+    <reference idRef="4"/>
+    <reference idRef="11"/>
+    <reference idRef="12"/>
+    <reference idRef="7"/>
+    <reference idRef="2"/>
+    <reference idRef="3"/>
+    <reference idRef="9"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="1"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+    <reference idRef="16"/>
+    <reference idRef="2"/>
+    <reference idRef="2"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>Agreement</string>
+    <reference idRef="16"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">19</unsigned_int>
+</object>

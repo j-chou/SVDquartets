@@ -1,0 +1,205 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="21" name="allObjects">
+    <object class="IBCarbonMenuItem" id="16">
+      <string name="title">Item 3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonPopupButton" id="7">
+      <int name="controlID">2</int>
+      <int name="controlSize">1</int>
+      <object name="menu" class="IBCarbonMenu" id="9">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="10">
+            <string name="title">Item 1</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="12">
+            <string name="title">Item 2</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="11">
+            <string name="title">Item 3</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">Data file format:</string>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">15 12 304 17 </string>
+      <string name="bounds">12 15 29 319 </string>
+    </object>
+    <object class="IBCarbonButton" id="8">
+      <int name="controlID">6</int>
+      <int name="controlSize">1</int>
+      <string name="title">Special symbols…</string>
+      <string name="viewFrame">223 41 123 20 </string>
+      <string name="bounds">41 223 61 346 </string>
+    </object>
+    <object class="IBCarbonRoundButton" id="6">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">12</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="viewFrame">497 11 25 25 </string>
+      <string name="bounds">11 497 36 522 </string>
+      <int name="contentType">132</int>
+      <int name="iconCreator">1835098995</int>
+      <int name="iconType">1751477360</int>
+    </object>
+    <reference idRef="12"/>
+    <object class="IBCarbonCheckBox" id="4">
+      <int name="controlID">5</int>
+      <int name="controlSize">1</int>
+      <string name="title">Interleaved</string>
+      <string name="viewFrame">366 13 86 18 </string>
+      <string name="bounds">13 366 31 452 </string>
+    </object>
+    <object class="IBCarbonMenu" id="13">
+      <string name="title">Popup</string>
+      <array count="3" name="items">
+        <object class="IBCarbonMenuItem" id="14">
+          <string name="title">Item 1</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <object class="IBCarbonMenuItem" id="15">
+          <string name="title">Item 2</string>
+          <boolean name="updateSingleItem">TRUE</boolean>
+        </object>
+        <reference idRef="16"/>
+      </array>
+    </object>
+    <object class="IBCarbonPopupButton" id="5">
+      <int name="controlID">4</int>
+      <int name="controlSize">1</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+      </object>
+      <reference name="menu" idRef="13"/>
+      <string name="title">Data type:</string>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">15 42 193 17 </string>
+      <string name="bounds">42 15 59 208 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="31">
+      <int name="controlID">9</int>
+      <int name="fontStyle">-2</int>
+      <boolean name="autoToggle">FALSE</boolean>
+      <string name="title">Lower triangular</string>
+      <string name="viewFrame">137 68 112 17 </string>
+      <string name="bounds">68 137 85 249 </string>
+    </object>
+    <object class="IBCarbonRadioButton" id="33">
+      <int name="controlID">11</int>
+      <int name="fontStyle">-2</int>
+      <boolean name="autoToggle">FALSE</boolean>
+      <string name="title">Full matrix</string>
+      <string name="viewFrame">443 68 90 17 </string>
+      <string name="bounds">68 443 85 533 </string>
+    </object>
+    <object class="IBCarbonUserPane" id="39">
+      <ostype name="controlSignature">DLS </ostype>
+      <int name="controlID">13</int>
+      <int name="featureBits">2</int>
+      <string name="viewFrame">0 0 533 105 </string>
+      <array count="10" name="subviews">
+        <reference idRef="7"/>
+        <reference idRef="8"/>
+        <object class="IBCarbonButton" id="24">
+          <int name="controlID">7</int>
+          <int name="controlSize">1</int>
+          <string name="title">Defaults…</string>
+          <string name="viewFrame">363 41 78 20 </string>
+          <string name="bounds">41 363 61 441 </string>
+        </object>
+        <reference idRef="33"/>
+        <object class="IBCarbonRadioButton" id="32">
+          <int name="controlID">10</int>
+          <int name="fontStyle">-2</int>
+          <boolean name="autoToggle">FALSE</boolean>
+          <string name="title">Lower triangular plus diagonal</string>
+          <string name="viewFrame">251 68 191 17 </string>
+          <string name="bounds">68 251 85 442 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="29">
+          <int name="controlID">8</int>
+          <int name="fontStyle">-2</int>
+          <string name="title">Distance matrix type:</string>
+          <string name="viewFrame">15 70 120 16 </string>
+          <string name="bounds">70 15 86 135 </string>
+        </object>
+        <reference idRef="4"/>
+        <reference idRef="31"/>
+        <reference idRef="5"/>
+        <reference idRef="6"/>
+      </array>
+      <string name="bounds">0 0 105 533 </string>
+    </object>
+    <reference idRef="11"/>
+    <reference idRef="32"/>
+    <reference idRef="15"/>
+    <reference idRef="14"/>
+    <reference idRef="29"/>
+    <reference idRef="9"/>
+    <reference idRef="10"/>
+    <object class="IBCarbonWindow" id="17">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">13</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="2">
+        <string name="viewFrame">0 0 533 103 </string>
+        <array count="1" name="subviews">
+          <reference idRef="39"/>
+        </array>
+        <string name="bounds">0 0 103 533 </string>
+      </object>
+      <string name="windowRect">734 112 837 645 </string>
+      <string name="ScreenRectAtEncodeTime">52 0 1178 1920 </string>
+    </object>
+    <reference idRef="2"/>
+    <reference idRef="24"/>
+  </array>
+  <array count="21" name="allParents">
+    <reference idRef="13"/>
+    <reference idRef="39"/>
+    <reference idRef="39"/>
+    <reference idRef="39"/>
+    <reference idRef="9"/>
+    <reference idRef="39"/>
+    <reference idRef="5"/>
+    <reference idRef="39"/>
+    <reference idRef="39"/>
+    <reference idRef="39"/>
+    <reference idRef="2"/>
+    <reference idRef="9"/>
+    <reference idRef="39"/>
+    <reference idRef="13"/>
+    <reference idRef="13"/>
+    <reference idRef="39"/>
+    <reference idRef="7"/>
+    <reference idRef="9"/>
+    <reference idRef="1"/>
+    <reference idRef="17"/>
+    <reference idRef="39"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Import</string>
+    <reference idRef="17"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">45</unsigned_int>
+</object>
