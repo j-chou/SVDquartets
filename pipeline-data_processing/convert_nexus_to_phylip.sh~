@@ -1,0 +1,10 @@
+#!/bin/bash
+#MODEL=$1
+
+for SPECIESNUMBER in {1..10}; do
+    for N in 10 25 50 100 200; do
+	for K in 100 500 1000; do
+	python ~/phylogenetic_tools/bioscripts.convert-0.4/bioscripts/convert/convalign.py phylip ~/scratch/15-taxon_redo/${SPECIESNUMBER}/relabeled_shortened_combined_${N}_subset_${K}.nex 
+	done
+    done
+done

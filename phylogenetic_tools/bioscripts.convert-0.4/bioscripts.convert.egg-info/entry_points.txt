@@ -1,0 +1,4 @@
+[console_scripts]
+convalign = bioscripts.convert.convalign:main
+convbioseq = bioscripts.convert.convbioseq:main
+

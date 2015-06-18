@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#PBS -N 15-taxon_njst
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=4:00:00
+#PBS -l walltime=4:00:00
+#PBS -t 1-10
+#
+
+for N in 10 25 50 100 200; do 
+    for K in 100 500 1000; do
+	~/phylogenetic_tools/njst-package/njst ~/scratch/15-taxon_redo/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/all_RAxML_result.trees ~/AGBsvdquartets/15-taxon_redo/${PBS_ARRAYID}/njst_${N}_sites_${K}_genes.tree
+    done
+done

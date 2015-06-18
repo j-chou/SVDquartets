@@ -1,0 +1,32 @@
+#!/bin/bash
+
+set -e
+set -x
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+outdir=`dirname $2`
+out=`basename $2`
+
+inn=`mktemp`
+sed -e "s/\([(,]\)\([0-9][^:]*\):/\1jn2Ld9X_\2:/g" $1 > $inn
+python $DIR/arb_resolve_polytomies.py $inn
+in=$inn.resolved
+
+cd $outdir
+
+echo working on $1
+
+test -s $out && echo output already exists. 
+test -s $out && exit 1
+
+method=njst
+
+tmp=`mktemp`
+cat $in|sed -e "s/:[0-9.e-]*//g" -e "s/)[0-9.e-]*/)/g" -e "s/[(,);]/ /g" -e "s/ /\n/g"|sort|uniq|tail -n+2>$tmp
+
+/usr/bin/time -p -o $out.time.stat Rscript $DIR/steac_star_njst.r $method $in $tmp $out 1>$method.out 2>$method.err
+
+sed -i -e "s/jn2Ld9X_//g" $out
+
+rm $in $inn

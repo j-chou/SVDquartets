@@ -1,0 +1,17 @@
+Changelog
+=========
+
+0.2 - 2009/4/14
+---------------
+
+* Initial release
+
+
+0.3.1 - 2009/4/16
+-----------------
+
+* First public release
+
+* Added alignment converter
+
+* Corrections to documentation

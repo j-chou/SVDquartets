@@ -1,0 +1,18 @@
+#Qsub script to run unpartitioned concatenation using RAxML on 11-taxon datasets
+#Usage: edit MODEL and type qsub get_unpartitioned_concatenation_11-taxon_allsites.pbs
+
+#!/bin/bash                  
+#                                                           
+#PBS -N 11-taxon_54_concat_raxml_10runs
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=4:00:00
+#PBS -l walltime=4:00:00
+#PBS -t 1-50
+#  
+MODEL=model.10.5400000.0.000000037
+
+for N in 200; do
+    for K in 1000; do
+	~/phylogenetic_tools/standard-RAxML/raxmlHPC-SSE3 -m GTRGAMMA -s ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_combined_${N}_subset_${K}.phy -w /projects/tallis/jed/AGBsvdquartets/11-taxon_redo/${MODEL}/${PBS_ARRAYID} -n concatenation_raxml_10runs_${N}_sites_${K}_genes.tree -N 10 -p $RANDOM
+done
+done

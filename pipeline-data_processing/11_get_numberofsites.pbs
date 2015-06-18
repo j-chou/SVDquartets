@@ -1,0 +1,12 @@
+#!/bin/bash
+#                                                           
+#PBS -N 11-taxon_20_numberofsitesN=200
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=4:00:00
+#PBS -l walltime=4:00:00
+#PBS -t 1-50
+#  
+MODEL=model.10.200000.0.000001000
+N=200
+cd ~/AGBsvdquartets/
+./numberofsites.sh 11-taxon_redo/${MODEL}/${PBS_ARRAYID} ~/scratch ${N} 1

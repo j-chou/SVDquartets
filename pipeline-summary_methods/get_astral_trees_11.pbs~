@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#PBS -N 11-taxon_60_astral_fasttree_genetrees
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=2:00:00
+#PBS -l walltime=2:00:00
+#PBS -t 1-50
+#
+MODEL=model.10.600000.0.000000333
+FOLDERPATH=~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}
+for N in 10 25 50 100 200; do 
+    for K in 100 500 1000; do
+	cd ${FOLDERPATH}/relabeled_shortened_data_${N}_subset_${K}/
+	cat *_fasttree_genetree >> all_fasttree.genetrees
+	java -jar ~/phylogenetic_tools/4.7.6.astral/astral.4.7.6.jar -i all_fasttree.genetrees -o ~/AGBsvdquartets/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/astral_fasttree_genetrees_${N}_sites_${K}_genes.tree
+    done
+done

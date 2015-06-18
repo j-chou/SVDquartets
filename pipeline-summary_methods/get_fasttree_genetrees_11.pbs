@@ -1,0 +1,36 @@
+#!/bin/bash
+#
+#PBS -N 11-taxon_20_fasttree_genetrees
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=2:00:00
+#PBS -l walltime=2:00:00
+#PBS -t 1-50
+#
+MODEL=model.10.200000.0.000001000
+
+K=100
+for N in 10 25 50 100 200; do
+    GENENUMBER=0${K}
+    ~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    for GENENUMBER in {0..0}{0..0}{0..9}{0..9}; do
+	~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    done
+done
+
+K=500
+for N in 10 25 50 100 200; do
+    GENENUMBER=0${K}
+    ~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    for GENENUMBER in {0..0}{0..4}{0..9}{0..9}; do
+	~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    done
+done
+
+K=1000
+for N in 10 25 50 100 200; do
+    GENENUMBER=${K}
+    ~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    for GENENUMBER in {0..0}{0..9}{0..9}{0..9}; do
+	~/AGBsvdquartets/FastTreeMP -gtr -nt -gamma ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_relabeled_shortened.phy > ~/scratch/11-taxon_redo/${MODEL}/${PBS_ARRAYID}/relabeled_shortened_data_${N}_subset_${K}/${GENENUMBER}_fasttree_genetree
+    done
+done

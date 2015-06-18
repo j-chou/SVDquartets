@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#PBS -N 15-taxon_astral
+#PBS -l nodes=1:ppn=1
+#PBS -l cput=4:00:00
+#PBS -l walltime=4:00:00
+#PBS -t 1-10
+#
+
+FOLDERPATH=~/scratch/15-taxon_redo/${PBS_ARRAYID}
+for N in 10 25 50 100 200; do 
+    for K in 100 500 1000; do
+	cd ${FOLDERPATH}/relabeled_shortened_data_${N}_subset_${K}/
+	cat RAxML_bestTree.*_unpartitioned_raxml_genetree >> all_RAxML_result.trees
+	java -jar ~/phylogenetic_tools/4.7.6.astral/astral.4.7.6.jar -i all_RAxML_result.trees -o ~/AGBsvdquartets/15-taxon_redo/${PBS_ARRAYID}/astral_${N}_sites_${K}_genes.tree
+    done
+done

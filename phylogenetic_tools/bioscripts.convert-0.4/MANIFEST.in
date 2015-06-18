@@ -1,0 +1,5 @@
+include setup.py
+include setup.cfg
+include README.txt
+recursive-include bioscripts *
+recursive-include docs *
