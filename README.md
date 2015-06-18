@@ -38,13 +38,3 @@ FastTree-2 or RAxML, and to run ASTRAL and NJst on the estimated gene trees.
 on nexus files of aggregated, shortened gene alignments. 
 
 3) pipeline-concatenation has scripts to run unpartitioned concatenation with RAxML. 
-
-
-
-
-
-
-1. 
-2. 
-3.
-4.
