@@ -1,2 +1,0 @@
-setuptools
-biopython >= 1.49
