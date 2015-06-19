@@ -3,11 +3,7 @@ This repository contains all scripts used in our paper,
 A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estimation Methods.
 
 ##Simulated Datasets
-The simulated datasets used in this study can all be found at goo.gl/EgkWRk
-
-##Linux Executables for Species Tree Estimation Methods
-The linux executables for ASTRAL [1], NJst [2], FastTree [3], and RAxML [4] are in the phylogenetic_tools folder. 
-The linux executable for PAUP* [5]  is in the src-pipelines folder. 
+Links to the simulated datasets and species tree estimation methods used in this study can all be found at goo.gl/EgkWRk
 
 ##Scripts for Processing Simulated Datasets
 Scripts to relabel phylip alignments (convert taxa names to integers via a specified dictionary taxa_dict.txt),
