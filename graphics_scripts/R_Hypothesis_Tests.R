@@ -1,3 +1,5 @@
+#author=Mike Nute
+
 setwd('C:\\Users\\Michael\\Grad School Stuff\\Research\\Phylogenetics\\results\\2015_05_SVDquartets\\analysis')
 library(ggplot2)
 library(gridExtra)
