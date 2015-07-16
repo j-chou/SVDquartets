@@ -1,4 +1,4 @@
-# SVDquartets
+# SVDquartets Experiments
 This repository contains all scripts used in our paper,
 A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estimation Methods.
 
@@ -6,23 +6,23 @@ A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estim
 Links to the simulated datasets and species tree estimation methods used in this study can all be found at goo.gl/EgkWRk
 
 ##Scripts for Processing Simulated Datasets
-Scripts to relabel phylip alignments (convert taxa names to integers via a specified dictionary taxa_dict.txt),
-shorten phylip alignments, and combine shortened alignments into a nexus file are in the folder src-pipeline.
+Scripts to relabel PHYLIP alignments (i.e., to convert taxa names to integers via a user-specified dictionary taxa_dict.txt),
+sample sites from PHYLIP alignments, and combine shortened alignments into a NEXUS file are in the folder src-pipeline.
 
 ##Scripts for Running Species Tree Estimation Methods on the Simulated Datasets
 
 The files in each "pipeline-" folder are a combination of shell scripts and qsub scripts 
 for the UIUC campus cluster. 
 
-0) pipeline-data_processing contains scripts to run the python code in src-pipeline. 
+0) pipeline-data_processing contains shell scripts to run the Python code in src-pipeline. 
 
 1) pipeline-summary_methods contains scripts to estimate gene trees on shortened alignments with 
-FastTree-2 [1] or RAxML [2], and to run ASTRAL [3] and NJst [4] on the estimated gene trees.
+FastTree-2 [1] or RAxML [2], and to run ASTRAL-2 [3] and NJst [4] on the estimated gene trees.
 
 2) pipeline-SVDquartets contains scripts to run SVDquartets [5] through PAUP*'s [6] implementation
-on nexus files of aggregated, shortened gene alignments. 
+on NEXUS files of aggregated, shortened gene alignments. 
 
-3) pipeline-concatenation has scripts to run unpartitioned concatenation with RAxML. 
+3) pipeline-concatenation has scripts to run concatenated analysis with maximum likelihood (CA-ML) with RAxML. 
 
 ##References
 1. Price, M.N., Dehal, P.S., Arkin, A.P.: FastTree 2: approximately maximum-likelihood trees for large alignments. PLoS One 5, 9490 (2010)
