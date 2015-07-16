@@ -1,6 +1,7 @@
 # SVDquartets Experiments
 This repository contains all scripts used in our paper,
-A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estimation Methods.
+A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estimation Methods
+by Jed Chou, Ashu Gupta, Shashank Yaduvanshi, Ruth Davidson, Mike Nute, Siavash Mirarab, and Tandy Warnow.
 
 ##Simulated Datasets
 Links to the simulated datasets and species tree estimation methods used in this study can all be found at goo.gl/EgkWRk
