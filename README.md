@@ -1,16 +1,16 @@
 # SVDquartets Experiments
-This repository contains all scripts used in our paper,  
+Contains all scripts used in our paper,  
 A Comparative Study of SVDquartets and Other Coalescent-Based Species Tree Estimation Methods 
 by Jed Chou, Ashu Gupta, Shashank Yaduvanshi, Ruth Davidson, Mike Nute, Siavash Mirarab, and Tandy Warnow.
 
-##Simulated Datasets
+## Simulated Datasets
 Links to the simulated datasets and species tree estimation methods used in this study can all be found at goo.gl/EgkWRk
 
-##Scripts for Processing Simulated Datasets
+## Scripts for Processing Simulated Datasets
 Scripts to relabel PHYLIP alignments (i.e., to convert taxa names to integers via a user-specified dictionary taxa_dict.txt),
 sample sites from PHYLIP alignments, and combine shortened alignments into a NEXUS file are in the folder src-pipeline.
 
-##Scripts for Running Species Tree Estimation Methods on the Simulated Datasets
+## Scripts for Running Species Tree Estimation Methods on the Simulated Datasets
 
 The files in each "pipeline-" folder are a combination of shell scripts and qsub scripts 
 for the UIUC campus cluster. 
@@ -25,7 +25,7 @@ on NEXUS files of aggregated, shortened gene alignments.
 
 3) pipeline-concatenation has scripts to run concatenated analysis with maximum likelihood (CA-ML) with RAxML. 
 
-##References
+## References
 1. Price, M.N., Dehal, P.S., Arkin, A.P.: FastTree 2: approximately maximum-likelihood trees for large alignments. PLoS One 5, 9490 (2010)
 
 2. Stamatakis, A.: RAxML-VI-HPC: maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models. Bioinformatics 22(21), 2688–2690 (2006)
